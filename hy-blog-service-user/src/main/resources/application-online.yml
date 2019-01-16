@@ -1,0 +1,28 @@
+server:
+  port: 9001
+
+spring:
+  # datasource
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.16.231.31:3306/yfancy?characterEncoding=utf-8
+    username: root
+    password: 123456
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+  # dubbo
+  dubbo:
+    application.name: yfancy-server
+    registry.address: zookeeper://172.16.231.31:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.yfancy
+# mybatis
+mybatis:
+  typeAliasesPackage: com.yfancy.base.entity
+  mapperLocations: classpath:mapper/*.xml
+logging:
+  config: classpath:config/logback-online.xml

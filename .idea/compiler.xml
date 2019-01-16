@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hy-blog-common-base" />
+        <module name="hy-blog-common-biz" />
+        <module name="hy-blog-common-config" />
+        <module name="hy-blog-service-user" />
+        <module name="hy-blog-service-user-api" />
+        <module name="hy-blog-service-vip" />
+        <module name="hy-blog-service-vip-api" />
+        <module name="hy-blog-web-boss" />
+        <module name="hy-blog-web-timer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hy-blog-common-base" target="1.7" />
+      <module name="hy-blog-common-biz" target="1.7" />
+      <module name="hy-blog-common-config" target="1.7" />
+      <module name="hy-blog-dubbo" target="1.7" />
+      <module name="hy-blog-service-user" target="1.8" />
+      <module name="hy-blog-service-user-api" target="1.7" />
+      <module name="hy-blog-service-vip" target="1.8" />
+      <module name="hy-blog-service-vip-api" target="1.7" />
+      <module name="hy-blog-web-boss" target="1.6" />
+      <module name="hy-blog-web-timer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

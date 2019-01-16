@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+#  dubbo:
+#    provider:
+#      filter: dubboLogFilter,-exception

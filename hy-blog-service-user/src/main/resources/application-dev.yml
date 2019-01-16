@@ -1,0 +1,41 @@
+server:
+  port: 9800
+
+spring:
+  # datasource
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.111.22.77:3306/yfancy?characterEncoding=utf-8
+    username: root
+    password: 123456
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    druid:
+      initial-size: 5
+      max-active: 20
+  aop:
+    proxy-target-class: true
+  # dubbo
+  dubbo:
+    application.name: service-user
+    registry.address: zookeeper://47.111.22.77:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.yfancy
+
+
+# mybatis
+#mybatis:
+#  typeAliasesPackage: com.yfancy.common.base.entity
+#  mapperLocations: classpath:mapper/*.xml
+logging:
+  config: classpath:config/logback-dev.xml
+
+#pagehelper:
+#  auto-dialect: myqsl
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql

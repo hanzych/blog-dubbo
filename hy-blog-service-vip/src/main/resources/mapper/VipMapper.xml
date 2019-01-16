@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yfancy.service.vip.dao.VipDao">
+    <insert id="insertVip" parameterType="com.yfancy.common.base.entity.Vip">
+        insert into vip (type,create_time, end_time, user_id) values (#{type},#{createTime}, #{endTime},#{userId});
+    </insert>
+
+
+    <select id="getVipByUserId" resultType="com.yfancy.common.base.entity.Vip" parameterType="java.lang.Integer">
+        select * from vip where user_id = #{userId}
+
+    </select>
+    <select id="vipType" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        select type from vip where user_id = #{userId}
+    </select>
+</mapper>
