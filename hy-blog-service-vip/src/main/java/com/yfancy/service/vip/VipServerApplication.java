@@ -7,7 +7,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@MapperScan(value = "com.yfancy.service.vip.dao")
 @EnableTransactionManagement
 @EnableAspectJAutoProxy
 public class VipServerApplication {

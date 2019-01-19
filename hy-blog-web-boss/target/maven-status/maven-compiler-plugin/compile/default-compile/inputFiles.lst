@@ -3,6 +3,7 @@
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/config/MultipleDataSource.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/config/ShiroConfig.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/WebBossApplication.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/ServletInitializer.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/interceptor/AuthInterceptor.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/config/MyWebMvcConfig.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java

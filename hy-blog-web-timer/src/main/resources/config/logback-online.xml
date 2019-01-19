@@ -13,7 +13,8 @@
     </appender>
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
-    <property name="LOG_PATH" value="/home/yfancy/logs/timer/timer."/>
+    <!--<property name="LOG_PATH" value="/home/yfancy/project/web-timer/web_timer"/>-->
+    <property name="LOG_PATH" value="/home/yfancy/log/web-timer/web_timer"/>
     <!--写入日志到文件的appender-->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -34,7 +35,7 @@
     <!--异步到文件-->
     <appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
-        <queueSize>10</queueSize>
+        <queueSize>50</queueSize>
         <appender-ref ref="FILE"/>
     </appender>
 
@@ -43,5 +44,6 @@
 
     <root level="info" >
         <appender-ref ref="asyncFileAppender" />
+        <appender-ref ref="CONSOLE" />
     </root>
 </configuration>

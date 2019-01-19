@@ -2,5 +2,6 @@
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/UserServerApplication.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/config/TransactionAdviceConfig.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/ServletInitializer.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/dao/UserDao.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-service-user/src/main/java/com/yfancy/service/user/config/DruidConfiguration.java

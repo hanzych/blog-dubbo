@@ -1,5 +1,6 @@
 com/yfancy/service/user/config/DataSourceConfig.class
 com/yfancy/service/user/dao/UserDao.class
 com/yfancy/service/user/config/DruidConfiguration.class
+com/yfancy/service/user/ServletInitializer.class
 com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.class
 com/yfancy/service/user/UserServerApplication.class

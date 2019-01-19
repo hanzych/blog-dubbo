@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hy-blog-service-user:war">
+    <output-path>$PROJECT_DIR$/hy-blog-service-user/target</output-path>
+    <root id="archive" name="service-user.war">
+      <element id="artifact" artifact-name="hy-blog-service-user:war exploded" />
+    </root>
+  </artifact>
+</component>

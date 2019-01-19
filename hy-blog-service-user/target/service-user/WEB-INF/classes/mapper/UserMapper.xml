@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yfancy.service.user.dao.UserDao">
+
+    <resultMap id="BaseResultMap" type="com.yfancy.common.base.entity.User">
+        <id column="id" property="id" jdbcType="DECIMAL" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="DECIMAL" />
+        <result column="nickName" property="nickName" jdbcType="VARCHAR" />
+        <result column="pic" property="pic" jdbcType="VARCHAR" />
+        <result column="sex" property="sex" jdbcType="DECIMAL" />
+    </resultMap>
+    <insert id="insert" parameterType="com.yfancy.common.base.entity.User">
+        insert into user (username , email) values (#{name},#{nickName});
+    </insert>
+
+    <select id="getUserById" resultType="com.yfancy.common.base.entity.User" parameterType="java.lang.Integer">
+        select * from user where id = #{id}
+    </select>
+
+    <select id="getAllUser" resultMap="BaseResultMap">
+        select * from user
+    </select>
+</mapper>

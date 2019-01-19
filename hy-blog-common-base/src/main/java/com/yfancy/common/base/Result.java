@@ -39,6 +39,10 @@ public class Result {
         return new Result(systemCodeMsgEnum,null);
     }
 
+    public static Result ERROR(SystemCodeMsgEnum systemCodeMsgEnum,Object object){
+        return new Result(systemCodeMsgEnum,object);
+    }
+
     public static Result ERROR(){
         return new Result(SystemCodeMsgEnum.error,null);
     }

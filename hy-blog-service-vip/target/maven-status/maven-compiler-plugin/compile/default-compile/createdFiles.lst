@@ -3,3 +3,4 @@ com/yfancy/service/vip/VipServerApplication.class
 com/yfancy/service/vip/config/DruidConfiguration.class
 com/yfancy/service/vip/config/DataSourceConfig.class
 com/yfancy/service/vip/dao/VipDao.class
+com/yfancy/service/vip/ServletInitializer.class

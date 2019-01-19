@@ -7,7 +7,9 @@ public enum  SystemCodeMsgEnum {
     success(200L, "处理成功"),
     error(999999L, "异常错误"),
     authError(-1L, "鉴权失败"),
-    timeout(111111L, "超时异常")
+    timeout(111111L, "超时异常"),
+    dbinsert(600001, "数据插入异常"),
+    dbupdate(600002, "数据更新异常"),
 
 
     ;

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hy-blog-web-timer:war">
+    <output-path>$PROJECT_DIR$/hy-blog-web-timer/target</output-path>
+    <root id="archive" name="web-timer.war">
+      <element id="artifact" artifact-name="hy-blog-web-timer:war exploded" />
+    </root>
+  </artifact>
+</component>

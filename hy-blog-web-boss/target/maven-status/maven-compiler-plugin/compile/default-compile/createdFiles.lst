@@ -2,4 +2,5 @@ com/yfancy/web/boss/config/MyWebMvcConfig.class
 com/yfancy/web/boss/config/WebBossExceptionHandler.class
 com/yfancy/web/boss/WebBossApplication.class
 com/yfancy/web/boss/controller/UserController.class
+com/yfancy/web/boss/ServletInitializer.class
 com/yfancy/web/boss/interceptor/AuthInterceptor.class

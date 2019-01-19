@@ -5,6 +5,10 @@
     <file url="file://$PROJECT_DIR$/hy-blog-common-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-common-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-common-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy-blog-service-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy-blog-service-message-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy-blog-service-notify" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy-blog-service-notify-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-service-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-service-user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-service-vip" charset="UTF-8" />

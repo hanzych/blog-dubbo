@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hy-blog-web-boss:war">
+    <output-path>$PROJECT_DIR$/hy-blog-web-boss/target</output-path>
+    <root id="archive" name="web-boos.war">
+      <element id="artifact" artifact-name="hy-blog-web-boss:war exploded" />
+    </root>
+  </artifact>
+</component>

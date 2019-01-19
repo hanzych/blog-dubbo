@@ -1,14 +1,14 @@
 server:
-  port: 9898
-  context-path: /admin
+  port: 4040
+#  context-path: /admin
 
 spring:
   dubbo:
-    application.name: yfancy-timer
+    application.name: web-timer
     registry.address: zookeeper://47.111.22.77:2181
     protocol:
       name: dubbo
-      port: 20880
+      port: 20888
     scan: com.yfancy
 logging:
   config: classpath:config/logback-online.xml

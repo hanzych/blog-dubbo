@@ -1,0 +1,15 @@
+server:
+  port: 9000
+  context-path: /web-boss
+
+
+spring:
+  dubbo:
+    application.name: web-boss
+    registry.address: zookeeper://47.111.22.77:2181
+    protocol:
+      name: dubbo
+      port: 20880
+    scan: com.yfancy
+logging:
+  config: classpath:config/logback-dev.xml

@@ -13,7 +13,8 @@
     </appender>
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
-    <property name="LOG_PATH" value="/home/yfancy/logs/admin/admin"/>
+    <!--<property name="LOG_PATH" value="/home/yfancy/project/web-boss/log/web_boss"/>-->
+    <property name="LOG_PATH" value="/home/yfancy/log/web-boss/web_boss"/>
     <!--写入日志到文件的appender-->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -34,14 +35,16 @@
     <!--异步到文件-->
     <appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">
         <discardingThreshold>0</discardingThreshold>
-        <queueSize>500</queueSize>
+        <queueSize>50</queueSize>
         <appender-ref ref="FILE"/>
     </appender>
 
     <logger name="org.springframework" level="INFO"></logger>
     <logger name="org.mybatis.spring" level="INFO"></logger>
+    <logger name="com.alibaba.dubbo" level="INFO"></logger>
 
     <root level="info" >
         <appender-ref ref="asyncFileAppender" />
+        <appender-ref ref="CONSOLE" />
     </root>
 </configuration>
