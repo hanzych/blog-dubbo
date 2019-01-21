@@ -22,6 +22,7 @@
         <module>hy-blog-service-message-api</module>
         <module>hy-blog-service-notify</module>
         <module>hy-blog-service-notify-api</module>
+        <module>hy-blog-app-notify</module>
     </modules>
 
     <properties>

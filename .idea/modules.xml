@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" filepath="$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" filepath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" filepath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" filepath="$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" />

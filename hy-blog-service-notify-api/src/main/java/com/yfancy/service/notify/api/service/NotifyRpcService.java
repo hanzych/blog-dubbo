@@ -8,5 +8,7 @@ public interface NotifyRpcService {
 
     public void updateNotify(Notify notify);
 
+    public void sendMessage(String message);
+
 
 }

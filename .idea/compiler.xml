@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hy-blog-app-notify" />
         <module name="hy-blog-common-base" />
         <module name="hy-blog-common-biz" />
         <module name="hy-blog-common-config" />
@@ -22,6 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hy-blog-app-notify" target="1.7" />
       <module name="hy-blog-common-base" target="1.7" />
       <module name="hy-blog-common-biz" target="1.7" />
       <module name="hy-blog-common-config" target="1.7" />

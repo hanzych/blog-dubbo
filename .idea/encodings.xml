@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy-blog-app-notify" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-common-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-common-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy-blog-common-config" charset="UTF-8" />

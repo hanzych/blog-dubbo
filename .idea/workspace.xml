@@ -141,6 +141,7 @@
     <ignored path="$PROJECT_DIR$/hy-blog-service-message/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-service-notify-api/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-service-notify/target/" />
+    <ignored path="$PROJECT_DIR$/hy-blog-app-notify/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,13 +190,49 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-966811809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="250" />
+          <entry key="xml" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="250" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="260">
               <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -207,17 +244,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-activemq.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="485">
+              <caret line="59" column="90" selection-start-line="59" selection-start-column="90" selection-end-line="59" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-kafka.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+            <state relative-caret-position="380">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding>
+                <element signature="e#817#818#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,6 +286,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -236,6 +296,7 @@
       <find>mq</find>
       <find>log</find>
       <find>spring</find>
+      <find>jms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,8 +315,6 @@
         <option value="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" />
         <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-online.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/vo/NotifyRecordVo.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/Result.java" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/exception/BizMsgException.java" />
@@ -276,7 +335,14 @@
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/App.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-activemq.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/NotifyDestinatonEnum.java" />
+        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties" />
+        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-kafka.xml" />
       </list>
     </option>
   </component>
@@ -289,8 +355,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../maven/conf/settings.xml" />
+        <option name="mavenHome" value="C:/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -321,10 +387,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="726" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-6" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -351,7 +418,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,52 +425,12 @@
               <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="hy-blog-service-notify" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,10 +456,11 @@
       <recent name="com.yfancy.common.base.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\blog-dubbo\hy-blog-app-notify\src\main\resources" />
+      <recent name="D:\github\blog-dubbo\hy-blog-common-config\src\main\resources" />
       <recent name="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources" />
       <recent name="$PROJECT_DIR$/hy-blog-common-config/src/main/resources" />
       <recent name="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring" />
-      <recent name="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,17 +551,18 @@
       <workItem from="1547819811375" duration="5605000" />
       <workItem from="1547876022617" duration="1937000" />
       <workItem from="1547894931385" duration="223000" />
+      <workItem from="1548038693138" duration="4631000" />
+      <workItem from="1548055932679" duration="3785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21374000" />
+    <option name="totallyTimeSpent" value="29790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1928" y="-6" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25187567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,9 +578,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329653" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41009465" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38898164" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329653" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299595" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32888147" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -641,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/mapper/VipMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -672,13 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="36" column="30" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -720,9 +734,6 @@
     <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/public_system.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/mq_config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -730,13 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/extern/slf4j/Slf4j.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/extern/slf4j/Slf4j.class" />
     <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -744,7 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
@@ -786,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="525" column="32" selection-start-line="525" selection-start-column="32" selection-end-line="525" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-common-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -828,34 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/dao/BaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="284" selection-start-line="284" selection-end-line="284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-activemq.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -866,10 +840,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="234" column="47" lean-forward="true" selection-start-line="233" selection-start-column="12" selection-end-line="234" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/NotifyDestinatonEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#1082#1289#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/mq_config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        <state relative-caret-position="1106">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-activemq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="59" column="90" selection-start-line="59" selection-start-column="90" selection-end-line="59" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-kafka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,11 +1011,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|hy-blog-service-notify</last-edited>
+          <last-edited>hy-blog-app-notify</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
