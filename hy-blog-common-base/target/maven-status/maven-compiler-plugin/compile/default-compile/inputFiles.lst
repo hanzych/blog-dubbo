@@ -1,8 +1,9 @@
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/NotifyDestinatonEnum.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/RewriteMsgUtil.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/dao/BaseDao.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/exception/BizMsgException.java
-/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/AdminUrlMapping.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/BaseEntity.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/Vip.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/Notify.java

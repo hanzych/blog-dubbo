@@ -1,10 +1,11 @@
 com/yfancy/common/base/entity/Vip.class
+com/yfancy/common/base/enums/NotifyDestinatonEnum.class
 com/yfancy/common/base/enums/SystemCodeMsgEnum.class
+com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.class
 com/yfancy/common/base/page/PageBean.class
 com/yfancy/common/base/BaseEntity.class
 com/yfancy/common/base/Result.class
 com/yfancy/common/base/exception/BizMsgException.class
-com/yfancy/common/base/url/AdminUrlMapping.class
 com/yfancy/common/base/entity/User.class
 com/yfancy/common/base/entity/Notify.class
 com/yfancy/common/base/dao/BaseDao.class

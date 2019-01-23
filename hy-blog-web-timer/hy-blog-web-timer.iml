@@ -98,8 +98,5 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
     <orderEntry type="module" module-name="hy-blog-service-user-api" />
     <orderEntry type="module" module-name="hy-blog-service-vip-api" />
-    <orderEntry type="library" name="Maven: com.alibaba.spring.boot:dubbo-spring-boot-starter:2.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.10.RELEASE" level="project" />
   </component>
 </module>

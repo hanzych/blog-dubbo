@@ -29,19 +29,11 @@
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="module" module-name="hy-blog-service-user-api" />
     <orderEntry type="module" module-name="hy-blog-service-vip-api" />
-    <orderEntry type="library" name="Maven: com.alibaba.spring.boot:dubbo-spring-boot-starter:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.1" level="project" />
   </component>
 </module>

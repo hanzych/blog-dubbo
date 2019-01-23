@@ -2,7 +2,7 @@ package com.yfancy.web.boss.controller;
 
 
 import com.yfancy.common.base.Result;
-import com.yfancy.common.base.url.AdminUrlMapping;
+import com.yfancy.common.base.url.WEB_BOSS_URL_Mapping;
 import com.yfancy.common.service.UserService;
 import com.yfancy.service.user.api.vo.UserVo;
 import com.yfancy.service.vip.api.vo.VipVo;
@@ -20,13 +20,13 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = AdminUrlMapping.USER_GET_ALL_USER, method = RequestMethod.GET)
+    @RequestMapping(value = WEB_BOSS_URL_Mapping.USER_GET_ALL_USER, method = RequestMethod.GET)
     public Result getAllUser(){
         List<UserVo> allUser = userService.getAllUser();
         return Result.SUCCESS(allUser);
     }
 
-    @RequestMapping(value = AdminUrlMapping.USER_GET_USER_BY_ID, method = RequestMethod.GET)
+    @RequestMapping(value = WEB_BOSS_URL_Mapping.USER_GET_USER_BY_ID, method = RequestMethod.GET)
     public Result getUserById(@RequestParam("id") int id){
         UserVo allUser = userService.getUserById(id);
         int i = userService.vipType(id);
@@ -34,7 +34,7 @@ public class UserController {
         return Result.SUCCESS(allUser);
     }
 
-    @RequestMapping(value = AdminUrlMapping.VIP_ADD_VIP, method = RequestMethod.POST)
+    @RequestMapping(value = WEB_BOSS_URL_Mapping.VIP_ADD_VIP, method = RequestMethod.POST)
     public Result addVipByUserId(@RequestParam("userId") int userId){
         VipVo vipVo = new VipVo();
         vipVo.setUserId(userId);
@@ -45,7 +45,7 @@ public class UserController {
         return Result.SUCCESS();
     }
 
-    @RequestMapping(value = AdminUrlMapping.USER_ADD_UER, method = RequestMethod.POST)
+    @RequestMapping(value = WEB_BOSS_URL_Mapping.USER_ADD_UER, method = RequestMethod.POST)
     public Result addUser(@RequestParam("mobile") String mobile){
         UserVo userVo = new UserVo();
         userVo.setAge(12);

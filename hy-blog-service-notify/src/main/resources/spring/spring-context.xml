@@ -35,11 +35,12 @@
 				<value>classpath:jdbc.properties</value>
 				<value>classpath:public_system.properties</value>
 				<value>classpath:mq_config.properties</value>
+				<value>classpath:dubbo_config.properties</value>
 			</list>
 		</property>
 	</bean>
 
 	<import resource="classpath:spring/spring-mybatis.xml" />
-	<import resource="classpath:spring/spring-dubbo-provider.xml" />
-	<import resource="classpath:spring/spring-activemq.xml" />
+	<import resource="classpath:spring/spring-rocketmq.xml" />
+    <import resource="classpath:spring/spring-dubbo-provider.xml" />
 </beans>
