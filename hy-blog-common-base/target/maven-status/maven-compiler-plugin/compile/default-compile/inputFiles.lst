@@ -9,6 +9,8 @@
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/Notify.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/User.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/Result.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaRoleEnum.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaTopicEnum.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/page/PageParam.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/page/PageBean.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-common-base/src/main/java/com/yfancy/common/base/dao/BaseDaoImpl.java

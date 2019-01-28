@@ -58,7 +58,7 @@ org.xml.sax.SAXParseException; lineNumber: 21; columnNumber: 52; schema_referenc
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
-	at com.yfancy.service.notify.App.main(App.java:18)
+	at com.yfancy.service.notify.Main_Service_Notify.main(App.java:18)
 Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
@@ -112,7 +112,7 @@ Offending resource: class path resource [spring/spring-context.xml]; nested exce
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:454)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
-	at com.yfancy.service.notify.App.main(App.java:18)
+	at com.yfancy.service.notify.Main_Service_Notify.main(App.java:18)
 Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 21 in XML document from class path resource [spring/spring-dubbo-provider.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 21; columnNumber: 52; cvc-complex-type.2.4.c: 通配符的匹配很全面, 但无法找到元素 'dubbo:application' 的声明。
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)
 	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
@@ -161,7 +161,7 @@ org.springframework.beans.factory.BeanInitializationException: Could not load pr
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
-	at com.yfancy.service.notify.App.main(App.java:18)
+	at com.yfancy.service.notify.Main_Service_Notify.main(App.java:18)
 Caused by: java.io.FileNotFoundException: class path resource [jdbc.properties] cannot be opened because it does not exist
 	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:143)
@@ -186,7 +186,7 @@ org.springframework.beans.factory.BeanInitializationException: Could not load pr
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
-	at com.yfancy.service.notify.App.main(App.java:18)
+	at com.yfancy.service.notify.Main_Service_Notify.main(App.java:18)
 Caused by: java.io.FileNotFoundException: class path resource [jdbc.properties] cannot be opened because it does not exist
 	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:143)
@@ -215,4 +215,4 @@ org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean def
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
-	at com.yfancy.service.notify.App.main(App.java:18)
+	at com.yfancy.service.notify.Main_Service_Notify.main(App.java:18)

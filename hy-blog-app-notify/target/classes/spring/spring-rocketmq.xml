@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="rocketMqConsumerListener" class="com.yfancy.app.notify.service.impl.RocketMqConsumerListener" />
+    <bean id="rocketMqConsumerListener" class="com.yfancy.app.notify.listener.RocketMqConsumerListener" />
 
     <bean id="rocketmqConsumer" class="org.apache.rocketmq.client.consumer.DefaultMQPushConsumer" init-method="start" destroy-method="shutdown">
         <property name="consumerGroup" value="${rocketmq.consumer.group}"/>

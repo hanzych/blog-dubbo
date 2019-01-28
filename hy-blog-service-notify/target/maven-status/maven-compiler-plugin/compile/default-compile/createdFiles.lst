@@ -1,4 +1,6 @@
 com/yfancy/service/notify/dao/NotifyDaoImpl.class
+com/yfancy/service/notify/kafka/KafkaProducerService.class
 com/yfancy/service/notify/dao/NotifyDao.class
-com/yfancy/service/notify/App.class
+com/yfancy/service/notify/Main_Service_Notify.class
+com/yfancy/service/notify/listener/KafkaProducerListener.class
 com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.class

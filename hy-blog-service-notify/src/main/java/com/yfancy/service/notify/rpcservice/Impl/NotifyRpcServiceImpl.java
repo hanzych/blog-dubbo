@@ -3,6 +3,7 @@ package com.yfancy.service.notify.rpcservice.Impl;
 import com.yfancy.common.base.entity.Notify;
 import com.yfancy.service.notify.api.service.NotifyRpcService;
 import com.yfancy.service.notify.dao.NotifyDao;
+import com.yfancy.service.notify.kafka.KafkaProducerService;
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
@@ -23,6 +24,9 @@ public class NotifyRpcServiceImpl implements NotifyRpcService {
 
     @Autowired
     private NotifyDao notifyDao;
+
+    @Autowired
+    private KafkaProducerService kafkaProducerService;
 
     @Override
     public void saveNotify(Notify notify) {
@@ -59,6 +63,14 @@ public class NotifyRpcServiceImpl implements NotifyRpcService {
         } catch (MQBrokerException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 发送kafka消息
+     * @param object
+     */
+    public void sendKafkaMsg(Object object){
+        kafkaProducerService.sendDefaultMsg(object);
     }
 
 

@@ -11,6 +11,10 @@ public enum  SystemCodeMsgEnum {
     dbinsert(600001, "数据插入异常"),
     dbupdate(600002, "数据更新异常"),
 
+    kafkanooffset(500012, "kafka偏移量为空"),
+    kafkaerror(500099, "kafka异常"),
+    kafkanorusult(500201, "kafka无返回结果"),
+
 
     ;
 
