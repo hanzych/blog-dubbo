@@ -2,10 +2,13 @@ package com.yfancy.app.notify.listener;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.kafka.listener.MessageListener;
 
-@Slf4j
 public class KafkaConsumerListener implements MessageListener {
+
+    private final static Logger log = LoggerFactory.getLogger("web-timer");
 
     /**
      * Executes when a {@link ConsumerRecord} is received.
@@ -14,6 +17,6 @@ public class KafkaConsumerListener implements MessageListener {
      */
     @Override
     public void onMessage(ConsumerRecord record) {
-        log.info("kafka开始消费,kafkaMessage={}",record);
+        log.info("kafka={}",record.value());
     }
 }

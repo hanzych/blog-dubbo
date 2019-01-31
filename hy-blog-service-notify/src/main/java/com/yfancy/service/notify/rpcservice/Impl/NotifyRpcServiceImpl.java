@@ -47,7 +47,7 @@ public class NotifyRpcServiceImpl implements NotifyRpcService {
     public void sendMessage(final String message) {
         System.out.print("发送消息-------");
         try {
-            Message msg = new Message("iZbp17ry8etfcerqmzgqirZ" ,
+            Message msg = new Message("test_topic" ,
                     "TagA" /* Tag */,
                     (message).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
             );

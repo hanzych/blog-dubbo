@@ -86,6 +86,11 @@
             <artifactId>hy-blog-service-notify-api</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.yfancy</groupId>
+            <artifactId>hy-blog-common-log</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

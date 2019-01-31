@@ -11,3 +11,4 @@ spring:
     scan: com.yfancy
 logging:
   config: classpath:config/logback-dev.xml
+

@@ -2,4 +2,5 @@ com/yfancy/web/timer/constants/TaskCronConstants.class
 com/yfancy/web/timer/task/TaskList.class
 com/yfancy/web/timer/task/TaskService.class
 com/yfancy/web/timer/ServletInitializer.class
+com/yfancy/web/timer/kafka_log/KafkaAppender.class
 com/yfancy/web/timer/TimerApplication.class

@@ -14,29 +14,29 @@
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/vip/vipserver"/>
-    <!--写入日志到文件的appender-->
-    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!--日志文件输出的文件名,每天一个文件-->
-            <FileNamePattern>${LOG_PATH}.%d{yyyy-MM-dd}.log</FileNamePattern>
-            <!--日志文件保留天数-->
-            <maxHistory>30</maxHistory>
-        </rollingPolicy>
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
-        </encoder>
-        <!--日志文件最大的大小-->
-        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <MaxFileSize>10MB</MaxFileSize>
-        </triggeringPolicy>
-    </appender>
+    <!--&lt;!&ndash;写入日志到文件的appender&ndash;&gt;-->
+    <!--<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--&lt;!&ndash;日志文件输出的文件名,每天一个文件&ndash;&gt;-->
+            <!--<FileNamePattern>${LOG_PATH}.%d{yyyy-MM-dd}.log</FileNamePattern>-->
+            <!--&lt;!&ndash;日志文件保留天数&ndash;&gt;-->
+            <!--<maxHistory>30</maxHistory>-->
+        <!--</rollingPolicy>-->
+        <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+            <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+        <!--</encoder>-->
+        <!--&lt;!&ndash;日志文件最大的大小&ndash;&gt;-->
+        <!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+            <!--<MaxFileSize>10MB</MaxFileSize>-->
+        <!--</triggeringPolicy>-->
+    <!--</appender>-->
 
-    <!--异步到文件-->
-    <appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">
-        <discardingThreshold>0</discardingThreshold>
-        <queueSize>500</queueSize>
-        <appender-ref ref="FILE"/>
-    </appender>
+    <!--&lt;!&ndash;异步到文件&ndash;&gt;-->
+    <!--<appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">-->
+        <!--<discardingThreshold>0</discardingThreshold>-->
+        <!--<queueSize>500</queueSize>-->
+        <!--<appender-ref ref="FILE"/>-->
+    <!--</appender>-->
 
 
     <logger name="org.springframework" level="INFO"></logger>
@@ -44,7 +44,7 @@
     <logger name="com.alibaba.dubbo" level="INFO"></logger>
 
     <root level="debug" >
-        <appender-ref ref="asyncFileAppender" />
+        <!--<appender-ref ref="asyncFileAppender" />-->
         <appender-ref ref="CONSOLE" />
     </root>
 </configuration>

@@ -10,5 +10,7 @@ public interface NotifyRpcService {
 
     public void sendMessage(String message);
 
+    public void sendKafkaMsg(Object message);
+
 
 }

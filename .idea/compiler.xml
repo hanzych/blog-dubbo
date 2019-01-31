@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hy-blog-app-log" />
         <module name="hy-blog-app-notify" />
         <module name="hy-blog-common-base" />
         <module name="hy-blog-common-biz" />
         <module name="hy-blog-common-config" />
+        <module name="hy-blog-common-log" />
         <module name="hy-blog-service-message" />
         <module name="hy-blog-service-message-api" />
         <module name="hy-blog-service-notify" />
@@ -23,19 +25,21 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hy-blog-app-notify" target="1.7" />
-      <module name="hy-blog-common-base" target="1.7" />
-      <module name="hy-blog-common-biz" target="1.7" />
-      <module name="hy-blog-common-config" target="1.7" />
-      <module name="hy-blog-dubbo" target="1.7" />
-      <module name="hy-blog-service-message" target="1.7" />
-      <module name="hy-blog-service-message-api" target="1.7" />
-      <module name="hy-blog-service-notify" target="1.7" />
-      <module name="hy-blog-service-notify-api" target="1.7" />
+      <module name="hy-blog-app-log" target="1.8" />
+      <module name="hy-blog-app-notify" target="1.8" />
+      <module name="hy-blog-common-base" target="1.8" />
+      <module name="hy-blog-common-biz" target="1.8" />
+      <module name="hy-blog-common-config" target="1.8" />
+      <module name="hy-blog-common-log" target="1.8" />
+      <module name="hy-blog-dubbo" target="1.8" />
+      <module name="hy-blog-service-message" target="1.8" />
+      <module name="hy-blog-service-message-api" target="1.8" />
+      <module name="hy-blog-service-notify" target="1.8" />
+      <module name="hy-blog-service-notify-api" target="1.8" />
       <module name="hy-blog-service-user" target="1.8" />
-      <module name="hy-blog-service-user-api" target="1.7" />
+      <module name="hy-blog-service-user-api" target="1.8" />
       <module name="hy-blog-service-vip" target="1.8" />
-      <module name="hy-blog-service-vip-api" target="1.7" />
+      <module name="hy-blog-service-vip-api" target="1.8" />
       <module name="hy-blog-web-boss" target="1.8" />
       <module name="hy-blog-web-timer" target="1.8" />
     </bytecodeTargetLevel>

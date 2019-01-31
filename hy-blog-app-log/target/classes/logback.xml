@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+    <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/logs"/>
+    <property name="WEB_TIMER_PATH" value="/web-timer/web-timer"/>
+    <property name="WEB_BOSS_PATH" value="/web-boss/web-boss"/>
+
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %5p [%F:%L] : %m%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- 自定义appender开始   web-timer-->
+    <appender name="web-timer" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- 基于时间的策略 -->
+            <fileNamePattern>${LOG_PATH}${WEB_TIMER_PATH}.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- 日志文件保留天数 -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <!-- 文件大小触发重写新文件 -->
+            <MaxFileSize>100MB</MaxFileSize>
+            <!-- <totalSizeCap>10GB</totalSizeCap> -->
+        </triggeringPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <!--<pattern>[%d] [%-5level] [%thread] [%logger] - %msg%n</pattern>-->
+            <pattern>[%d] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 自定义appender开始   web-boss-->
+    <appender name="web-boss" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- 基于时间的策略 -->
+            <fileNamePattern>${LOG_PATH}${WEB_BOSS_PATH}.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- 日志文件保留天数 -->
+            <MaxHistory>10</MaxHistory>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <!-- 文件大小触发重写新文件 -->
+            <MaxFileSize>100MB</MaxFileSize>
+            <!-- <totalSizeCap>10GB</totalSizeCap> -->
+        </triggeringPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <!--<pattern>[%d] [%-5level] [%thread] [%logger] - %msg%n</pattern>-->
+            <pattern>[%d] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 自定义log开始   web-timer-->
+    <logger name="web-timer" level="INFO" additivity="false" >
+        <appender-ref ref="web-timer" />
+    </logger>
+    <!-- 自定义log开始   web-boss-->
+    <logger name="web-boss" level="INFO" additivity="false" >
+        <appender-ref ref="web-boss" />
+    </logger>
+
+
+
+
+
+
+
+
+
+    <root level="info">
+        <appender-ref ref="Console"/>
+    </root>
+
+</configuration>

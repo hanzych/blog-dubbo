@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+    <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/logs"/>
+    <property name="WEB_TIMER_PATH" value="/web-timer/web-timer"/>
+
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %5p [%F:%L] : %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--<appender name="web-timer" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">&lt;!&ndash; 基于时间的策略 &ndash;&gt;-->
+            <!--<fileNamePattern>${LOG_PATH}${WEB_TIMER_PATH}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+            <!--&lt;!&ndash; 日志文件保留天数 &ndash;&gt;-->
+            <!--<MaxHistory>10</MaxHistory>-->
+        <!--</rollingPolicy>-->
+        <!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+            <!--&lt;!&ndash; 文件大小触发重写新文件 &ndash;&gt;-->
+            <!--<MaxFileSize>100MB</MaxFileSize>-->
+            <!--&lt;!&ndash; <totalSizeCap>10GB</totalSizeCap> &ndash;&gt;-->
+        <!--</triggeringPolicy>-->
+        <!--<encoder>-->
+            <!--<charset>UTF-8</charset>-->
+            <!--&lt;!&ndash;<pattern>[%d] [%-5level] [%thread] [%logger] - %msg%n</pattern>&ndash;&gt;-->
+            <!--<pattern> %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <!--<logger name="web-timer" level="INFO" additivity="false" >-->
+        <!--<appender-ref ref="web-timer" />-->
+    <!--</logger>-->
+
+    <root level="info">
+        <appender-ref ref="Console"/>
+    </root>
+
+</configuration>

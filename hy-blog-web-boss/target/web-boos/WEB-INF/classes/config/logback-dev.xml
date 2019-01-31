@@ -1,48 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <!--引入默认的一些设置-->
-    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+    <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/logs/web-boss/web-boss"/>
+    <property name="PROJECT_NAME" value="WEB_BOSS"/>
+
+
+    <!--&lt;!&ndash;引入默认的一些设置&ndash;&gt;-->
+    <!--<include resource="org/springframework/boot/logging/logback/defaults.xml"/>-->
     <!--web信息-->
     <logger name="org.springframework.web" level="info"/>
 
     <!--写入日志到控制台的appender,用默认的,但是要去掉charset,否则windows下tomcat下乱码-->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <pattern>[${PROJECT_NAME}] || [%date] [%level] [%thread] [%logger{36}] [%file : %line] : %msg%n</pattern>
         </encoder>
     </appender>
 
-    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
-    <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/admin/admin"/>
-    <!--写入日志到文件的appender-->
-    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!--日志文件输出的文件名,每天一个文件-->
-            <FileNamePattern>${LOG_PATH}.%d{yyyy-MM-dd}.log</FileNamePattern>
-            <!--日志文件保留天数-->
-            <maxHistory>30</maxHistory>
-        </rollingPolicy>
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
-        </encoder>
-        <!--日志文件最大的大小-->
-        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <MaxFileSize>1000MB</MaxFileSize>
-        </triggeringPolicy>
-    </appender>
+    <!--&lt;!&ndash;写入日志到文件的appender&ndash;&gt;-->
+    <!--<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--&lt;!&ndash;日志文件输出的文件名,每天一个文件&ndash;&gt;-->
+            <!--<FileNamePattern>${LOG_PATH}${}.%d{yyyy-MM-dd}.log</FileNamePattern>-->
+            <!--&lt;!&ndash;日志文件保留天数&ndash;&gt;-->
+            <!--<maxHistory>30</maxHistory>-->
+        <!--</rollingPolicy>-->
+        <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+            <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+        <!--</encoder>-->
+        <!--&lt;!&ndash;日志文件最大的大小&ndash;&gt;-->
+        <!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+            <!--<MaxFileSize>1000MB</MaxFileSize>-->
+        <!--</triggeringPolicy>-->
+    <!--</appender>-->
 
-    <!--异步到文件-->
-    <appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">
-        <discardingThreshold>0</discardingThreshold>
-        <queueSize>500</queueSize>
-        <appender-ref ref="FILE"/>
+    <!--&lt;!&ndash;异步到文件&ndash;&gt;-->
+    <!--<appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">-->
+        <!--<discardingThreshold>0</discardingThreshold>-->
+        <!--<queueSize>500</queueSize>-->
+        <!--<appender-ref ref="FILE"/>-->
+    <!--</appender>-->
+
+    <!-- 业务日志：写入kafka -->
+    <!--此配置作为示例配置，请勿deploy-->
+    <appender name="KAFKA" class="com.yfancy.common.log.kafka.KafkaAppender">
+        <topic>web_boss_topic</topic>
+        <bootstrapServers>47.111.22.77:9092</bootstrapServers>
+        <valueSerializer>org.apache.kafka.common.serialization.StringSerializer</valueSerializer>
+        <failOnStartup>false</failOnStartup>
+        <!--设置600毫秒超时-->
+        <requestTimeoutMs>600</requestTimeoutMs>
+        <!--空闲时间，超过5秒没人用就关闭连接-->
+        <maxBlockTimeMs>5000</maxBlockTimeMs>
+
+        <!--<logToLocal>true</logToLocal>-->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>[${PROJECT_NAME}] || [%date] [%level] [%thread] [%logger{36}] [%file : %line] : %msg%n</pattern>
+        </layout>
     </appender>
 
     <logger name="org.springframework" level="INFO"></logger>
     <logger name="org.mybatis.spring" level="INFO"></logger>
 
-    <root level="debug" >
-        <appender-ref ref="asyncFileAppender" />
+    <root level="info" >
+        <!--<appender-ref ref="asyncFileAppender" />-->
         <appender-ref ref="CONSOLE" />
+        <appender-ref ref="KAFKA" />
     </root>
 </configuration>

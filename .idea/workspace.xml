@@ -2,134 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6efc35-cea7-436b-a5cf-f4f99334a1d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_user_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_user_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_vip_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_vip_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_boss_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_boss_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_timer_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_timer_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/Main_App_Notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/service/impl/RocketMqConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/RocketMqConsumerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-rocketmq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-rocketmq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/META-INF/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/META-INF/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/service/impl/RocketMqConsumerListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-kafka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-rocketmq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-rocketmq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/Main_App_Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/Main_App_Notify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/listener/KafkaConsumerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/listener/KafkaConsumerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/listener/RocketMqConsumerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/com/yfancy/app/notify/listener/RocketMqConsumerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-kafka-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/classes/spring/spring-kafka-consumer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/hy-blog-app-notify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/hy-blog-app-notify.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/commons-logging-1.1.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-aspects-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-context-support-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/slf4j-log4j12-1.7.21.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/dao/BaseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/dao/BaseDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/Notify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/Vip.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/Vip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/KafkaRoleEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/KafkaRoleEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/KafkaTopicEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/KafkaTopicEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/NotifyDestinatonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/NotifyDestinatonEnum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/SystemCodeMsgEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/SystemCodeMsgEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/exception/BizMsgException.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/exception/BizMsgException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/page/PageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/page/PageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/page/PageParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/page/PageParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/util/RewriteMsgUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/util/RewriteMsgUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/classes/kafka_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/classes/kafka_config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-dubbo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-dubbo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-message-api/hy-blog-service-message-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message-api/hy-blog-service-message-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-message-api/target/classes/com/yfancy/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message-api/target/classes/com/yfancy/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message-api/target/hy-blog-service-message-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message-api/target/hy-blog-service-message-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-message/target/classes/com/yfancy/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/target/classes/com/yfancy/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message/target/hy-blog-service-message-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/target/hy-blog-service-message-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/hy-blog-service-notify-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/hy-blog-service-notify-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/classes/com/yfancy/service/notify/api/service/NotifyRpcService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/classes/com/yfancy/service/notify/api/service/NotifyRpcService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/classes/com/yfancy/service/notify/api/vo/NotifyRecordVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/classes/com/yfancy/service/notify/api/vo/NotifyRecordVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/test-classes/com/yfancy/AppTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/hy-blog-service-notify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/hy-blog-service-notify.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/Main_Service_Notify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka-producer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/test/java/com/yfancy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/test/java/com/yfancy/MainServicrNotifyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/META-INF/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/META-INF/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/Main_Service_Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/Main_Service_Notify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/dao/NotifyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/dao/NotifyDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/dao/NotifyDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/dao/NotifyDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/kafka/KafkaProducerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/kafka/KafkaProducerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/listener/KafkaProducerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/listener/KafkaProducerListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/spring/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/spring/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/spring/spring-kafka.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/hy-blog-service-notify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/hy-blog-service-notify.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/commons-logging-1.1.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-aspects-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-context-support-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/test-classes/com/yfancy/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/test-classes/com/yfancy/MainServicrNotifyTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/hy-blog-service-user-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/hy-blog-service-user-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/service/UserDubboService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/service/UserDubboService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/vo/UserVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/hy-blog-service-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/hy-blog-service-user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/classes/com/yfancy/service/vip/api/service/VipDubboService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/classes/com/yfancy/service/vip/api/service/VipDubboService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/classes/com/yfancy/service/vip/api/vo/VipVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/classes/com/yfancy/service/vip/api/vo/VipVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/hy-blog-service-vip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/hy-blog-service-vip.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/config/logback-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/com/yfancy/web/timer/task/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/com/yfancy/web/timer/task/TaskList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/com/yfancy/web/timer/task/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/com/yfancy/web/timer/task/TaskList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zb-pay-service-notify.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-19" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-22" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zb-pay-service-notify.log.2019-01-27" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hy-blog-service-user-api/target/" />
@@ -147,6 +169,8 @@
     <ignored path="$PROJECT_DIR$/hy-blog-service-notify-api/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-service-notify/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-app-notify/target/" />
+    <ignored path="$PROJECT_DIR$/hy-blog-common-log/target/" />
+    <ignored path="$PROJECT_DIR$/hy-blog-app-log/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,17 +181,20 @@
     <session id="196472438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -179,11 +206,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="19" />
-          <entry key="JAVA" value="143" />
-          <entry key="Properties" value="36" />
-          <entry key="XML" value="196" />
-          <entry key="YAML" value="5" />
+          <entry key="CLASS" value="27" />
+          <entry key="JAVA" value="210" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="41" />
+          <entry key="XML" value="293" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -193,10 +221,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1597" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Properties" value="220" />
-          <entry key="XML" value="806" />
+          <entry key="JAVA" value="2397" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Properties" value="232" />
+          <entry key="XML" value="1646" />
+          <entry key="YAML" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -243,15 +272,42 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebBossKafkaLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="96" lean-forward="true" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebTimerKafkaLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="spring-beans.schema" />
         <option value="mapepr" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -285,6 +341,7 @@
       <find>producer.fl</find>
       <find>producer.f</find>
       <find>ConsumerRebalanceListener</find>
+      <find>logback</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -300,57 +357,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/dao/BaseDaoImpl.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/Notify.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/App.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/NotifyDestinatonEnum.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-context.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring-kafka.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-biz/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-activemq.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/mq_config.properties" />
-        <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/dubbo_config.properties" />
-        <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/mapper/notifyMapper.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/dao/NotifyDaoImpl.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/AdminUrlMapping.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/WEB_BOOS_URL_Mapping.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.java" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/NotifyController.java" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/APP.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-rocketmq.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-rocketmq.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/service/impl/RocketMqConsumerListener.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/RocketMqConsumerListener.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka.xml" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaRoleEnum.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-context.xml" />
         <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaTopicEnum.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/kafka/KafkaProducer.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/kafka/KafkaProducerService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java" />
         <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-context.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/App.java" />
         <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/App.java" />
         <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/Main_App_Notify.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/Main_Servicr_Notify.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/Main_Service_Notify.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/listener/KafkaProducerListener.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka-producer.xml" />
         <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/spring-kafka-producer.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/config/KafkaAppender.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaUtil.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaConfigUtils.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskList.java" />
+        <option value="$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaAppender.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-log/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaAppender.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-context.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/Main_App_Log.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/RocketMqConsumerListener.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-kafka-consumer.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/KafkaConsumerListener.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/config/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/BaseKafkaLog.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaLogNameEnum.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebBossKafkaLog.java" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebTimerKafkaLog.java" />
       </list>
     </option>
   </component>
@@ -418,6 +475,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -426,11 +484,173 @@
               <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-app-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-message" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-service-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-boss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,15 +660,16 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-timer/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661583375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548902593956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.31528664" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
@@ -456,14 +677,15 @@
       <recent name="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yfancy.app.log.listener" />
       <recent name="com.yfancy.common.base.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka" />
       <recent name="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config" />
       <recent name="D:\github\blog-dubbo\hy-blog-app-notify\src\main\resources" />
       <recent name="D:\github\blog-dubbo\hy-blog-common-config\src\main\resources" />
-      <recent name="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources" />
-      <recent name="$PROJECT_DIR$/hy-blog-common-config/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,8 +704,22 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.21652892" />
   </component>
-  <component name="RunManager" selected="Application.Main_App_Notify">
+  <component name="RunManager" selected="Application.Main_App_Log">
+    <configuration name="Main_App_Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yfancy.app.log.Main_App_Log" />
+      <module name="hy-blog-app-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yfancy.app.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main_App_Notify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yfancy.app.notify.Main_App_Notify" />
       <module name="hy-blog-app-notify" />
@@ -545,11 +781,13 @@
       <item itemvalue="Spring Boot.WebBossApplication" />
       <item itemvalue="Application.Main_Service_Notify" />
       <item itemvalue="Application.Main_App_Notify" />
+      <item itemvalue="Application.Main_App_Log" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main_Service_Notify" />
+        <item itemvalue="Application.Main_App_Log" />
         <item itemvalue="Application.Main_App_Notify" />
+        <item itemvalue="Application.Main_Service_Notify" />
       </list>
     </recent_temporary>
   </component>
@@ -581,16 +819,27 @@
       <workItem from="1548435331716" duration="178000" />
       <workItem from="1548554765266" duration="8401000" />
       <workItem from="1548656401886" duration="4639000" />
+      <workItem from="1548664736399" duration="4527000" />
+      <workItem from="1548724745817" duration="1852000" />
+      <workItem from="1548731694711" duration="2183000" />
+      <workItem from="1548742406761" duration="2766000" />
+      <workItem from="1548814619635" duration="4272000" />
+      <workItem from="1548828461856" duration="12084000" />
+      <workItem from="1548848232636" duration="3635000" />
+      <workItem from="1548853849606" duration="790000" />
+      <workItem from="1548854770658" duration="4826000" />
+      <workItem from="1548896887141" duration="4734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104779000" />
+    <option name="totallyTimeSpent" value="146448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.20553781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.21512248" />
       <window_info id="Structure" order="1" sideWeight="0.5007542" side_tool="true" weight="0.20553781" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -599,27 +848,27 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.32489878" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.33502024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40587044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329653" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36639675" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32489878" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3265625" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5151822" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.32489878" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840257" weight="0.3234375" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.51875" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840257" weight="0.5445344" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.329653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19382322" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32055378" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -634,366 +883,360 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaAppender.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaConfigUtils.java" />
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/Main_Service_Notify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="72">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaRoleEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/2.2.3.RELEASE/spring-kafka-2.2.3.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="84" column="77" lean-forward="true" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/KafkaTopicEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.1/kafka-clients-1.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.3.5.RELEASE/spring-kafka-1.3.5.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.3.5.RELEASE/spring-kafka-1.3.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.2.3.RELEASE/spring-kafka-1.2.3.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/spring-messaging/4.3.9.RELEASE/spring-messaging-4.3.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/integration/spring-integration-kafka/1.3.0.RELEASE/spring-integration-kafka-1.3.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/integration/spring-integration-core/4.1.6.RELEASE/spring-integration-core-4.1.6.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify-api/src/main/java/com/yfancy/service/notify/api/service/NotifyRpcService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.1.7.RELEASE/spring-kafka-1.1.7.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE.jar!/org/springframework/util/concurrent/ListenableFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/util/concurrent/SettableListenableFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/util/concurrent/ListenableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar!/org/apache/kafka/clients/producer/Producer.class">
+    <entry file="jar://$PROJECT_DIR$/../../repo/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/ch/qos/logback/classic/PatternLayout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.1.7.RELEASE/spring-kafka-1.1.7.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaAppender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-778">
-          <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/integration/spring-integration-kafka/1.0.0.RELEASE/spring-integration-kafka-1.0.0.RELEASE.jar!/org/springframework/integration/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.1/kafka-clients-1.0.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka_2.10/0.8.1.1/kafka_2.10-0.8.1.1.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/integration/spring-integration-kafka/1.0.0.RELEASE/spring-integration-kafka-1.0.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.1.7.RELEASE/spring-kafka-1.1.7.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="210" column="4" lean-forward="true" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="409" column="16" lean-forward="true" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.0.0.RELEASE/spring-kafka-1.0.0.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="524" selection-start-line="524" selection-end-line="524" />
+        <state relative-caret-position="390">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/rpcservice/Impl/NotifyRpcServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="780">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/kafka/KafkaProducerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-online.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.0.0.RELEASE/spring-kafka-1.0.0.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="128" column="45" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-rocketmq.xml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-context.xml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/log4j.properties" />
+    <entry file="jar://$PROJECT_DIR$/../../repo/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar!/ch/qos/logback/core/ConsoleAppender.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/RocketMqConsumerListener.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="389">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.0.0.RELEASE/spring-kafka-1.0.0.RELEASE-sources.jar!/org/springframework/kafka/listener/KafkaMessageListenerContainer.java">
+    <entry file="file://$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/DATA_NAME_IS_UNDEFINED/EVENT_LOGS_FILENAME_IS_UNDEFINED.2019-01-28.log" />
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/TimerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="547" column="63" lean-forward="true" selection-start-line="547" selection-start-column="63" selection-end-line="547" selection-end-column="63" />
+        <state relative-caret-position="300">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.0.0.RELEASE/spring-kafka-1.0.0.RELEASE-sources.jar!/org/springframework/kafka/listener/MessageListener.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="91">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="105" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/kafka/spring-kafka/1.0.0.RELEASE/spring-kafka-1.0.0.RELEASE-sources.jar!/org/springframework/kafka/listener/ConcurrentMessageListenerContainer.java">
+    <entry file="jar://$PROJECT_DIR$/../../repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/Layout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-context.xml">
+    <entry file="jar://$PROJECT_DIR$/../../repo/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar!/ch/qos/logback/core/joran/action/AppenderAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        <state relative-caret-position="111">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/listener/KafkaProducerListener.java">
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/common/config/AbstractConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="359" column="10" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/Main_App_Notify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/java/com/yfancy/service/notify/Main_Service_Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-kafka-producer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/web-timer/timer.2019-01-30.log" />
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="290" column="25" selection-start-line="290" selection-start-column="25" selection-end-line="290" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/KafkaConsumerListener.java" />
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/RocketMqConsumerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-kafka-consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="223">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="555">
+          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/Main_App_Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/BaseKafkaLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaLogNameEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/config/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/config/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-kafka-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebBossKafkaLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="96" lean-forward="true" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebTimerKafkaLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,11 +1294,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|hy-blog-app-notify</last-edited>
+          <last-edited>hy-blog-app-log</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31528664" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

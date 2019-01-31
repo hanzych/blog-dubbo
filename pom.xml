@@ -12,6 +12,7 @@
         <module>hy-blog-common-biz</module>
         <!--<module>hy-blog-common-core</module>-->
         <module>hy-blog-common-config</module>
+        <module>hy-blog-common-log</module>
         <module>hy-blog-service-user</module>
         <module>hy-blog-service-user-api</module>
         <module>hy-blog-service-vip</module>
@@ -23,6 +24,7 @@
         <module>hy-blog-service-notify</module>
         <module>hy-blog-service-notify-api</module>
         <module>hy-blog-app-notify</module>
+        <module>hy-blog-app-log</module>
     </modules>
 
     <properties>
@@ -505,6 +507,21 @@
                 <artifactId>logback-classic</artifactId>
                 <version>1.2.3</version>
             </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>log4j-over-slf4j</artifactId>
+                <version>1.7.25</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
@@ -539,8 +556,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <skip>true</skip>
                 </configuration>
             </plugin>
