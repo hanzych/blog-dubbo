@@ -11,4 +11,6 @@ public interface UserDubboService {
     public List<UserVo> getAllUser();
 
     public void addUser(UserVo userVo);
+
+    public UserVo getUserInfoByName(String name);
 }

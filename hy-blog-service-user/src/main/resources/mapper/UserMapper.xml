@@ -4,7 +4,7 @@
 
     <resultMap id="BaseResultMap" type="com.yfancy.common.base.entity.User">
         <id column="id" property="id" jdbcType="DECIMAL" />
-        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="username" property="name" jdbcType="VARCHAR" />
         <result column="age" property="age" jdbcType="DECIMAL" />
         <result column="nickName" property="nickName" jdbcType="VARCHAR" />
         <result column="pic" property="pic" jdbcType="VARCHAR" />
@@ -20,5 +20,8 @@
 
     <select id="getAllUser" resultMap="BaseResultMap">
         select * from user
+    </select>
+    <select id="getUserByName" resultType="com.yfancy.common.base.entity.User">
+        select * from user where username = #{name};
     </select>
 </mapper>

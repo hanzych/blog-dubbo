@@ -21,7 +21,9 @@
 	<dubbo:application name="hy-blog-service-notify" />
 
 	<!-- 使用zookeeper注册中心暴露服务地址 -->
-	<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" />
+	<!--<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" />-->
+    <!-- 使用nacos注册中心暴露服务地址 -->
+	<dubbo:registry protocol="nacos" address="${dubbo.registry.address}" />
 
 	<!-- 用dubbo协议在20900端口暴露服务 -->
 	<dubbo:protocol name="dubbo" port="${dubbo.protocol.port.notify}" />

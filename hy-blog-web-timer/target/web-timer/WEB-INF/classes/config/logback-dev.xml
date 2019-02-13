@@ -112,6 +112,6 @@
     <root level="info" >
         <!--<appender-ref ref="asyncFileAppender" />-->
         <appender-ref ref="CONSOLE" />
-        <appender-ref ref="KAFKA" />
+        <!--<appender-ref ref="KAFKA" />-->
     </root>
 </configuration>

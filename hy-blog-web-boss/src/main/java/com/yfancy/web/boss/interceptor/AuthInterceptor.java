@@ -14,17 +14,19 @@ import javax.servlet.http.HttpServletResponse;
 public class AuthInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        log.info("【AuthInterceptor】【preHandle】，鉴权开始，判断鉴权是否通过");
-        String noauth = httpServletRequest.getHeader("NOAUTH");
-        if (noauth != null){
-            log.info("【AuthInterceptor】【preHandle】，不需要鉴权，通过");
-            return true;
-        }
+//        log.info("【AuthInterceptor】【preHandle】，鉴权开始，判断鉴权是否通过");
+//        String noauth = httpServletRequest.getHeader("NOAUTH");
+//        if (noauth != null){
+//            log.info("【AuthInterceptor】【preHandle】，不需要鉴权，通过");
+//            return true;
+//        }
+//
+//
+//        log.info("【AuthInterceptor】【preHandle】，鉴权失败");
+//        RewriteMsgUtil.writeJsonMsg(httpServletResponse, Result.ERROR(SystemCodeMsgEnum.authError));
+//        return false;
 
-
-        log.info("【AuthInterceptor】【preHandle】，鉴权失败");
-        RewriteMsgUtil.writeJsonMsg(httpServletResponse, Result.ERROR(SystemCodeMsgEnum.authError));
-        return false;
+        return true;
     }
 
     @Override

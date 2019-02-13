@@ -17,7 +17,8 @@ spring:
   # dubbo
   dubbo:
     application.name: service-vip
-    registry.address: zookeeper://47.111.22.77:2181
+#    registry.address: zookeeper://47.111.22.77:2181
+    registry.address: nacos://47.111.22.77:8848
     protocol:
       name: dubbo
       port: 20888

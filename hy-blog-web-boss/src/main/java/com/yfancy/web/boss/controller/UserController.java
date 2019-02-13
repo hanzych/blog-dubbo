@@ -3,7 +3,7 @@ package com.yfancy.web.boss.controller;
 
 import com.yfancy.common.base.Result;
 import com.yfancy.common.base.url.WEB_BOSS_URL_Mapping;
-import com.yfancy.common.service.UserService;
+import com.yfancy.common.biz.UserService;
 import com.yfancy.service.user.api.vo.UserVo;
 import com.yfancy.service.vip.api.vo.VipVo;
 import lombok.extern.slf4j.Slf4j;
@@ -49,7 +49,7 @@ public class UserController {
     public Result addUser(@RequestParam("mobile") String mobile){
         UserVo userVo = new UserVo();
         userVo.setAge(12);
-        userVo.setName("zhangsan");
+        userVo.setUsername("zhangsan");
         userVo.setNickName("czdasdasd");
         userVo.setSex(-1);
         userService.addUser(userVo);

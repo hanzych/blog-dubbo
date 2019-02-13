@@ -9,7 +9,9 @@ public class UserVo extends BaseEntity {
 
     private int id;
 
-    private String name;
+    private String password;
+
+    private String username;
 
     private int age;
 

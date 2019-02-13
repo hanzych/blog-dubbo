@@ -1,6 +1,3 @@
 spring:
   profiles:
     active: @package.environment@
-#  dubbo:
-#    provider:
-#      filter: dubboLogFilter,-exception

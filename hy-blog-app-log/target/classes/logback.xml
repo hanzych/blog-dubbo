@@ -53,11 +53,11 @@
     </appender>
 
     <!-- 自定义log开始   web-timer-->
-    <logger name="web-timer" level="INFO" additivity="false" >
+    <logger name="web_timer" level="INFO" additivity="false" >
         <appender-ref ref="web-timer" />
     </logger>
     <!-- 自定义log开始   web-boss-->
-    <logger name="web-boss" level="INFO" additivity="false" >
+    <logger name="web_boss" level="INFO" additivity="false" >
         <appender-ref ref="web-boss" />
     </logger>
 

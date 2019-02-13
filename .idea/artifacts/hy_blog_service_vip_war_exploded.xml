@@ -60,6 +60,22 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.21.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: com.alibaba.boot:nacos-config-spring-boot-starter:0.1.1" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-spring-context:0.2.2-RC1" />
+          <element id="library" level="project" name="Maven: com.alibaba.boot:nacos-config-spring-boot-autoconfigure:0.1.1" />
+          <element id="library" level="project" name="Maven: com.alibaba.boot:nacos-spring-boot-base:0.1.1" />
+          <element id="library" level="project" name="Maven: com.alibaba.boot:nacos-discovery-spring-boot-starter:0.1.1" />
+          <element id="library" level="project" name="Maven: com.alibaba.boot:nacos-discovery-spring-boot-autoconfigure:0.1.1" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo-registry-nacos:0.0.1" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-client:0.6.0" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-common:0.6.0" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Maven: com.alibaba.nacos:nacos-api:0.6.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.6" />
+          <element id="library" level="project" name="Maven: com.alibaba.spring:spring-context-support:1.0.2" />
           <element id="archive" name="hy-blog-service-vip-api-1.0.0.jar">
             <element id="module-output" name="hy-blog-service-vip-api" />
           </element>

@@ -55,5 +55,15 @@ public class UserDubboServiceImpl implements UserDubboService {
         userDao.insert(user);
     }
 
+    @Override
+    public UserVo getUserInfoByName(String name) {
+        log.info("【dubbo】【server】,获取用户，开始，name = {}" , name);
+        User user = userDao.getUserByName(name);
+        UserVo userVo = new UserVo();
+        BeanUtils.copyProperties(user,userVo);
+        log.info("【dubbo】【server】,获取用户，结束，userVo = {}" , userVo);
+        return userVo;
+    }
+
 
 }
