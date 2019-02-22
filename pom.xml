@@ -25,6 +25,7 @@
         <module>hy-blog-service-notify-api</module>
         <module>hy-blog-app-notify</module>
         <module>hy-blog-app-log</module>
+        <module>hy-blog-web-weixin</module>
     </modules>
 
     <properties>
@@ -544,6 +545,18 @@
                 <groupId>org.springframework.kafka</groupId>
                 <artifactId>spring-kafka</artifactId>
                 <version>1.0.0.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.thoughtworks.xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>1.4.10</version>
             </dependency>
 
         </dependencies>

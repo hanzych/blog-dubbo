@@ -6,119 +6,88 @@
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_vip_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_service_vip_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_boss_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_boss_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_timer_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_blog_web_timer_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_nacos_config_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_nacos_discovery_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_sentinel_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/classes/com/yfancy/app/log/listener/WebBossKafkaLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/classes/com/yfancy/app/log/listener/WebBossKafkaLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/classes/com/yfancy/app/log/listener/WebTimerKafkaLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/classes/com/yfancy/app/log/listener/WebTimerKafkaLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-log/hy-blog-app-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/hy-blog-app-log.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/hy-blog-app-notify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/hy-blog-app-notify.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-log-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-common-log-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-log/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-log/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/hy-blog-app-notify.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/hy-blog-app-notify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/hy-blog-app-notify.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-app-notify/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/SystemCodeMsgEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/classes/com/yfancy/common/base/enums/SystemCodeMsgEnum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/classes/com/yfancy/common/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/dubbo_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/dubbo_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/classes/dubbo_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/classes/dubbo_config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-config/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-log/target/classes/com/yfancy/common/log/kafka/BaseKafkaLog.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-log/target/hy-blog-common-log-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-log/target/hy-blog-common-log-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-common-log/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-log/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message-api/target/hy-blog-service-message-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message-api/target/hy-blog-service-message-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-message/target/hy-blog-service-message-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-message/target/hy-blog-service-message-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/hy-blog-service-notify-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/hy-blog-service-notify-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify-api/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/hy-blog-service-notify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/hy-blog-service-notify.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/spring/spring-dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/classes/spring/spring-dubbo-provider.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/hy-blog-service-notify.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/hy-blog-service-notify.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-config-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-common-config-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-notify/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/service/UserDubboService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/service/UserDubboService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/service/UserDubboService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/service/UserDubboService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/vo/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/classes/com/yfancy/service/user/api/vo/UserVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/hy-blog-service-user-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/hy-blog-service-user-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user-api/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/hy-blog-service-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/hy-blog-service-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/UserServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/UserServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/UserServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/UserServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/UserServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-user/target/service-user/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip-api/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/hy-blog-service-vip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/hy-blog-service-vip.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/classes/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/classes/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-service-vip/target/service-vip/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/com/yfancy/web/boss/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/com/yfancy/web/boss/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/com/yfancy/web/boss/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/com/yfancy/web/boss/interceptor/AuthInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/com/yfancy/web/boss/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/com/yfancy/web/boss/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/com/yfancy/web/boss/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/com/yfancy/web/boss/interceptor/AuthInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-log-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-common-log-1.0.0.jar" afterDir="false" />
@@ -126,25 +95,16 @@
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/com/yfancy/web/timer/task/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/com/yfancy/web/timer/task/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/com/yfancy/web/timer/task/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/com/yfancy/web/timer/task/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/config/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/classes/config/logback-dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-base-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-biz-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-log-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-common-log-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-notify-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-notify-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-user-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hy-blog-web-timer/target/web-timer/WEB-INF/lib/hy-blog-service-vip-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hy-blog-service-user-api/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-common-biz/target/" />
@@ -163,6 +123,7 @@
     <ignored path="$PROJECT_DIR$/hy-blog-app-notify/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-common-log/target/" />
     <ignored path="$PROJECT_DIR$/hy-blog-app-log/target/" />
+    <ignored path="$PROJECT_DIR$/hy-blog-web-weixin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,13 +134,14 @@
     <session id="196472438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="6" />
+          <entry key="project.closed" value="34" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="1" />
@@ -187,7 +149,8 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -199,13 +162,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="30" />
+          <entry key="CLASS" value="41" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="246" />
+          <entry key="JAVA" value="345" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Properties" value="47" />
-          <entry key="XML" value="321" />
-          <entry key="YAML" value="30" />
+          <entry key="Properties" value="55" />
+          <entry key="XML" value="366" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -216,11 +179,11 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="7" />
-          <entry key="JAVA" value="2814" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Properties" value="342" />
-          <entry key="XML" value="1794" />
-          <entry key="YAML" value="165" />
+          <entry key="JAVA" value="8150" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Properties" value="436" />
+          <entry key="XML" value="1921" />
+          <entry key="YAML" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -269,37 +232,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy-blog-service-message/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxAccessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="1380">
+              <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy-blog-service-user/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxMediaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
+            <state relative-caret-position="435">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml">
+        <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/helper/WeixinHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="2094">
+              <caret line="249" column="57" lean-forward="true" selection-start-line="249" selection-start-column="57" selection-end-line="249" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,8 +274,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="mapepr" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -362,38 +325,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/kafka_log/KafkaAppender.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-log/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaAppender.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/java/com/yfancy/app/notify/listener/KafkaConsumerListener.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-context.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/Main_App_Log.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/RocketMqConsumerListener.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-kafka-consumer.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/KafkaConsumerListener.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/config/logback-dev.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/BaseKafkaLog.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/pom.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaLogNameEnum.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebBossKafkaLog.java" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-app-log/src/main/java/com/yfancy/app/log/listener/WebTimerKafkaLog.java" />
-        <option value="$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskService.java" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/interceptor/AuthInterceptor.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/biz/UserService.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/biz/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/service/UserDubboService.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/User.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/vo/UserVo.java" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java" />
         <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/DashboardController.java" />
         <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-dev.yml" />
@@ -410,9 +341,41 @@
         <option value="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/UserServerApplication.java" />
-        <option value="$PROJECT_DIR$/hy-blog-service-message/pom.xml" />
         <option value="$PROJECT_DIR$/hy-blog-service-user/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/hy-blog-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/Main_WEB_WEIXIN.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/Main_Web_Weixin.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/spring/spring-context.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-service-message/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/WeixinApplication.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/config/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/config/ConstantsConfig.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/WeixinButtonTypeEnum.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/SubButtonVo.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/MenuButtonVo.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/menu/MenuButtonVo.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/JaxbUtil.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/XmlBeanConvertUtil.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/test/java/com/yfancy/WeixinApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/SerializeXmlUtil.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/TextMessage.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/BaseMessage.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/WeixinMsgTypeEnum.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-config/src/main/resources/weixin_config.properties" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/config/WeixinConfig.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxAccessController.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/WEB_WEIXIN_URL_Mapping.java" />
+        <option value="$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/helper/WeixinHelper.java" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxMediaController.java" />
       </list>
     </option>
   </component>
@@ -440,25 +403,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hy-blog-service-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hy-blog-web-weixin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hy-blog-service-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hy-blog-web-weixin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hy-blog-service-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.alibaba.boot:nacos-config-spring-boot-starter:0.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="337" />
+    <option name="y" value="107" />
     <option name="width" value="1280" />
     <option name="height" value="732" />
   </component>
@@ -505,6 +463,201 @@
               <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-common-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hy-blog-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="hy-blog-web-weixin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yfancy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -521,24 +674,26 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-timer/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549011026995" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550830214590" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31528664" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/hy-blog-web-boss/src/main/resources" />
       <recent name="$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka" />
       <recent name="$PROJECT_DIR$/hy-blog-app-notify/src/main/resources" />
-      <recent name="$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config" />
-      <recent name="D:\github\blog-dubbo\hy-blog-app-notify\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yfancy.web.weixin" />
       <recent name="com.yfancy.web.boss.controller" />
       <recent name="com.yfancy.app.log.listener" />
       <recent name="com.yfancy.common.base.dao" />
@@ -565,7 +720,7 @@
     </option>
     <option name="contentProportion" value="0.21652892" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServerApplication">
+  <component name="RunManager" selected="Spring Boot.WeixinApplication">
     <configuration name="Main_App_Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yfancy.app.log.Main_App_Log" />
       <module name="hy-blog-app-log" />
@@ -605,6 +760,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeixinApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hy-blog-web-weixin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yfancy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yfancy" />
+      <option name="MAIN_CLASS_NAME" value="com.yfancy.WeixinApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy-blog-web-timer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yfancy.web.timer.TimerApplication" />
@@ -633,17 +804,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeixinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-blog-web-weixin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yfancy.WeixinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.UserServerApplication" />
       <item itemvalue="Spring Boot.TimerApplication" />
       <item itemvalue="Spring Boot.VipServerApplication" />
       <item itemvalue="Spring Boot.WebBossApplication" />
+      <item itemvalue="Spring Boot.WeixinApplication" />
       <item itemvalue="Application.Main_Service_Notify" />
       <item itemvalue="Application.Main_App_Notify" />
       <item itemvalue="Application.Main_App_Log" />
+      <item itemvalue="JUnit.WeixinApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WeixinApplicationTests.contextLoads" />
         <item itemvalue="Application.Main_App_Log" />
         <item itemvalue="Application.Main_App_Notify" />
         <item itemvalue="Application.Main_Service_Notify" />
@@ -691,17 +872,46 @@
       <workItem from="1548915045780" duration="8610000" />
       <workItem from="1548984310245" duration="1708000" />
       <workItem from="1548989027516" duration="13697000" />
-      <workItem from="1550025151689" duration="971000" />
+      <workItem from="1550025151689" duration="1113000" />
+      <workItem from="1550738013635" duration="851000" />
+      <workItem from="1550740528702" duration="5327000" />
+      <workItem from="1550749397646" duration="9409000" />
+      <workItem from="1550797452748" duration="25206000" />
+      <workItem from="1550846235330" duration="137000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WeixinHelper_createMenuContent - 2019.02.22 at 11h 46m 01s.xml">
+      <configuration name="WeixinHelper.createMenuContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeixinHelper_createMenuContent - 2019.02.22 at 13h 54m 02s.xml">
+      <configuration name="WeixinHelper.createMenuContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeixinHelper_createMenuContent - 2019.02.22 at 13h 55m 05s.xml">
+      <configuration name="WeixinHelper.createMenuContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeixinApplicationTests_contextLoads - 2019.02.22 at 15h 33m 37s.xml">
+      <configuration name="WeixinApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172760000" />
+    <option name="totallyTimeSpent" value="213832000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1012" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.34006462" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.21565495" />
       <window_info id="Structure" order="1" sideWeight="0.5007542" side_tool="true" weight="0.20553781" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,26 +921,26 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.33502024" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40587044" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.334375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4046875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.329653" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32793522" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4703125" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.32489878" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840257" weight="0.3228745" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840257" weight="0.321875" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840257" visible="true" weight="0.28125" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840257" visible="true" weight="0.33152175" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.329653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32055378" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.31987077" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -738,6 +948,44 @@
       <window_info anchor="right" id="JSF" order="10" />
       <window_info anchor="right" id="CDI" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.32229403" />
+      <window_info id="Structure" order="1" sideWeight="0.5007542" side_tool="true" weight="0.20553781" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49757674" weight="0.334375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4046875" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4703125" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.32489878" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840257" weight="0.321875" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840257" visible="true" weight="0.5828125" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.329653" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.31987077" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -758,337 +1006,353 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hy-blog-app-log/src/main/resources/spring/spring-kafka-consumer.xml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        <state relative-caret-position="156">
+          <caret line="159" column="18" lean-forward="true" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/templates/demo/404.html">
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskService.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/src/main/resources/spring/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-message/src/main/java/com/yfancy/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/java/com/yfancy/web/timer/task/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-log/src/main/java/com.yfancy.common.log/kafka/KafkaAppender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/interceptor/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/service/UserDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/biz/UserService.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-message/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="228">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/spring/spring-context.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../repo/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/container/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="113">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/src/main/java/com/yfancy/common/biz/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="182">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="257">
+          <caret line="168" column="15" lean-forward="true" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application-sit.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/config/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/kafka_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-app-notify/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/resources/application-online.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/WeixinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../repo/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="115" column="45" lean-forward="true" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/SystemCodeMsgEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/mapper/UserMapper.xml">
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/entity/ContentType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="122">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/target/web-boos/WEB-INF/classes/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/WeixinButtonTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="181">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/LoginController.java">
+    <entry file="jar://$PROJECT_DIR$/../../repo/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        <state relative-caret-position="-3144">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/menu/SubButtonVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user-api/src/main/java/com/yfancy/service/user/api/vo/UserVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/java/com/yfancy/web/boss/controller/DashboardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/com/alibaba/dubbo-registry-nacos/0.0.1/dubbo-registry-nacos-0.0.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/com/alibaba/spring/spring-context-support/1.0.1/spring-context-support-1.0.1.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/serviceImpl/UserDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/config/TransactionAdviceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/config/DruidConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-vip/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-vip/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/dubbo_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="104" column="24" selection-start-line="83" selection-start-column="8" selection-end-line="104" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/org/springframework/cloud/spring-cloud-starter-alibaba-nacos-config/0.1.0.RELEASE/spring-cloud-starter-alibaba-nacos-config-0.1.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-timer/src/main/resources/config/logback-dev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="115" column="11" lean-forward="true" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/config/logback-dev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-web-boss/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/menu/MenuButtonVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-sit.yml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/JaxbUtil.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="237">
+          <caret line="555" column="24" lean-forward="true" selection-start-line="555" selection-start-column="24" selection-end-line="555" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/com/alibaba/nacos/nacos-api/0.6.0/nacos-api-0.6.0.jar!/com/alibaba/nacos/api/config/ConfigFactory.class">
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="246">
+          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-online.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../repo/com/alibaba/boot/nacos-config-spring-boot-starter/0.1.1/nacos-config-spring-boot-starter-0.1.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/java/com/yfancy/service/user/UserServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/test/java/com/yfancy/WeixinApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/XmlBeanConvertUtil.java" />
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/CommonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="92" column="49" lean-forward="true" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-message/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/../../repo/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="52" />
+        <state relative-caret-position="32">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/src/main/resources/bootstrap.properties">
+    <entry file="jar://$PROJECT_DIR$/../../repo/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar!/com/thoughtworks/xstream/XStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="30">
+          <caret line="835" column="43" lean-forward="true" selection-start-line="835" selection-start-column="43" selection-end-line="835" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy-blog-service-notify/src/main/resources/spring/spring-dubbo-provider.xml">
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/BaseMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/enums/WeixinMsgTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/SerializeXmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1266#2161#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/config/WeixinConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#899#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/TextMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-config/src/main/resources/weixin_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/util/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="111" column="21" lean-forward="true" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-common-base/src/main/java/com/yfancy/common/base/url/WEB_WEIXIN_URL_Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxAccessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxMediaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/helper/WeixinHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2094">
+          <caret line="249" column="57" lean-forward="true" selection-start-line="249" selection-start-column="57" selection-end-line="249" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,7 +1410,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hy-blog-app-log</last-edited>
+          <last-edited>hy-blog-web-weixin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

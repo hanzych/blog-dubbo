@@ -5,11 +5,13 @@
     <file type="web" url="file://$PROJECT_DIR$/hy-blog-service-vip" />
     <file type="web" url="file://$PROJECT_DIR$/hy-blog-web-boss" />
     <file type="web" url="file://$PROJECT_DIR$/hy-blog-web-timer" />
+    <file type="web" url="file://$PROJECT_DIR$/hy-blog-web-weixin" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-blog-web-weixin/pom.xml" />
       </list>
     </option>
   </component>

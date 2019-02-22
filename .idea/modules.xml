@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" filepath="$PROJECT_DIR$/hy-blog-service-vip-api/hy-blog-service-vip-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" filepath="$PROJECT_DIR$/hy-blog-web-boss/hy-blog-web-boss.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" filepath="$PROJECT_DIR$/hy-blog-web-timer/hy-blog-web-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hy-blog-web-weixin/hy-blog-web-weixin.iml" filepath="$PROJECT_DIR$/hy-blog-web-weixin/hy-blog-web-weixin.iml" />
     </modules>
   </component>
 </project>

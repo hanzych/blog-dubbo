@@ -15,6 +15,8 @@ public enum  SystemCodeMsgEnum {
     kafkaerror(500099, "kafka异常"),
     kafkanorusult(500201, "kafka无返回结果"),
 
+    weixin_success(0L,"微信返回成功码"),
+
 
     ;
 

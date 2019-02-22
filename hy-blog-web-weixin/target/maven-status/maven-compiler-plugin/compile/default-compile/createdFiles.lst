@@ -1,0 +1,5 @@
+com/yfancy/web/weixin/helper/WeixinHelper.class
+com/yfancy/WeixinApplication.class
+com/yfancy/web/weixin/config/WeixinConfig.class
+com/yfancy/ServletInitializer.class
+com/yfancy/web/weixin/controller/WxAccessController.class

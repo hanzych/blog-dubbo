@@ -71,6 +71,11 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:1.4.10" />
+          <element id="library" level="project" name="Maven: xmlpull:xmlpull:1.1.3.1" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3_min:1.1.4c" />
           <element id="archive" name="hy-blog-service-user-api-1.0.0.jar">
             <element id="module-output" name="hy-blog-service-user-api" />
           </element>
