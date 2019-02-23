@@ -108,7 +108,7 @@ public class WxAccessController {
             return "";
         }
         String beanToXml = SerializeXmlUtil.beanToXml(baseMessage);
-        log.info("[WxAccessController][weixinMessage],处理消息，完成");
+        log.info("[WxAccessController][weixinMessage],处理消息，完成,req = {}",beanToXml);
         return beanToXml;
     }
 

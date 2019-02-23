@@ -1,14 +1,6 @@
 server:
-  port: 4040
-#  context-path: /admin
+  port: 8080
+  context-path: /web-weixin
 
-spring:
-  dubbo:
-    application.name: web-timer
-    registry.address: zookeeper://47.111.22.77:2181
-    protocol:
-      name: dubbo
-      port: 20888
-    scan: com.yfancy
 logging:
   config: classpath:config/logback-online.xml

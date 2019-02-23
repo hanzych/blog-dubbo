@@ -14,7 +14,7 @@
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <!--<property name="LOG_PATH" value="/home/yfancy/project/web-timer/web_timer"/>-->
-    <property name="LOG_PATH" value="/home/yfancy/log/web-timer/web_timer"/>
+    <property name="LOG_PATH" value="/home/dream/logs/web-weixin/web_weixin"/>
     <!--写入日志到文件的appender-->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">

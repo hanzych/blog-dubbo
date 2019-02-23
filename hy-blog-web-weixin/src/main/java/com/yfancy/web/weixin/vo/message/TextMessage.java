@@ -10,5 +10,7 @@ public class TextMessage extends BaseMessage{
     @XStreamAlias("Content")
     private String content;
 
+    @XStreamAlias("MsgId")
+    private String msgId;
 
 }

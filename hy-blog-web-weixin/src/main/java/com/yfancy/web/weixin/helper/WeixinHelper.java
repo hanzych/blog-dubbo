@@ -13,11 +13,9 @@ import com.yfancy.common.base.util.SerializeXmlUtil;
 import com.yfancy.web.weixin.config.WeixinConfig;
 import com.yfancy.web.weixin.vo.menu.MenuButtonVo;
 import com.yfancy.web.weixin.vo.menu.SubButtonVo;
-import com.yfancy.web.weixin.vo.message.BaseMessage;
-import com.yfancy.web.weixin.vo.message.EventMessage;
+import com.yfancy.web.weixin.vo.message.*;
 import com.yfancy.web.weixin.vo.message.image.ImageReceiveMessage;
 import com.yfancy.web.weixin.vo.message.image.ImageSendMessage;
-import com.yfancy.web.weixin.vo.message.TextMessage;
 import com.yfancy.web.weixin.vo.message.image.ImageVo;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -256,7 +254,7 @@ public class WeixinHelper {
      * @return
      */
     private BaseMessage dealImageMsg(ImageReceiveMessage imageReceiveMessage) {
-        ImageSendMessage imageSendMessage = createMsgByType(imageReceiveMessage);
+        ImageSendMessage imageSendMessage = createMsgByType(imageReceiveMessage, WeixinMsgTypeEnum.image);
         imageSendMessage.setImage(new ImageVo("lQ88oxpGbrcRV3dN2n6_vDMFZHvugobfhAWldH5T0YeLZq6uNxOeR1NuvsFH-de4"));
         return imageSendMessage;
     }
@@ -268,19 +266,11 @@ public class WeixinHelper {
      */
     private BaseMessage dealEventMsg(EventMessage eventMsg) {
         String event = eventMsg.getEvent();
-        if ("unsubscribe".equals(event)){
-            log.info("[WeixinHelper][dealEventMsg],用户取消关注类订阅号...");
-            //用户订阅之后，给他发送一个消息
-            String content = weixinConfig.getUnsubsriber_resp();
-            TextMessage textMessage = createMsgByType(eventMsg);
-            textMessage.setContent(content);
-            return textMessage;
-        }
         if ("subscribe".equals(event)){
             log.info("[WeixinHelper][dealEventMsg],用户关注类订阅号...");
             //用户订阅之后，给他发送一个消息
             String content = weixinConfig.getSubsriber_resp();
-            TextMessage textMessage = createMsgByType(eventMsg);
+            TextMessage textMessage = createMsgByType(eventMsg, WeixinMsgTypeEnum.text);
             textMessage.setContent(content);
             return textMessage;
         }
@@ -288,6 +278,18 @@ public class WeixinHelper {
             String status = eventMsg.getStatus();
             if ("success".equals(status)){
                 log.info("[WeixinHelper][dealEventMsg],用户已成功接受模版消息推送...");
+            }
+        }
+        if ("CLICK".equals(event)){
+            String eventKey = eventMsg.getEventKey();
+            if ("today_music_key".equals(eventKey)){
+                //如果是点击菜单按钮触发的，发送一个图文消息
+                ArticlesMessage articlesMessage = createMsgByType(eventMsg, WeixinMsgTypeEnum.news);
+                return articlesMessage;
+            }else {
+                TextMessage textMessage = createMsgByType(eventMsg,WeixinMsgTypeEnum.text);
+                textMessage.setContent("对不起我们无法识别你的操作");
+                return textMessage;
             }
         }
         return null;
@@ -302,7 +304,7 @@ public class WeixinHelper {
         Random random = new Random();
         int randomNum = random.nextInt(size - 1);
         String content = Weixin_Init_Param.textRespParamMsg.get(randomNum);
-        TextMessage textMessage = createMsgByType(msg);
+        TextMessage textMessage = createMsgByType(msg, WeixinMsgTypeEnum.text);
         textMessage.setContent(content);
         return textMessage;
     }
@@ -311,11 +313,11 @@ public class WeixinHelper {
     /**
      * 按照不同到类型创建对应到消息类
      * @param msg 为了知道发给谁
+     * @param wantedMsgType 想要创建的消息的类型
      * @return
      */
-    private <T> T createMsgByType(BaseMessage msg){
-        WeixinMsgTypeEnum weixinMsgTypeEnum = returnMsgType(msg.getMsgType());
-        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.text){
+    private <T> T createMsgByType(BaseMessage msg, WeixinMsgTypeEnum wantedMsgType){
+        if (wantedMsgType == WeixinMsgTypeEnum.text){
             TextMessage textMessage = new TextMessage();
             textMessage.setContent("");
             textMessage.setCreateTime(System.currentTimeMillis()/1000);
@@ -324,7 +326,7 @@ public class WeixinHelper {
             textMessage.setMsgType(WeixinMsgTypeEnum.text.name());
             return (T) textMessage;
         }
-        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.event){
+        if (wantedMsgType == WeixinMsgTypeEnum.event){
             TextMessage textMessage = new TextMessage();
             textMessage.setContent("");
             textMessage.setCreateTime(System.currentTimeMillis()/1000);
@@ -333,14 +335,34 @@ public class WeixinHelper {
             textMessage.setMsgType(WeixinMsgTypeEnum.text.name());
             return (T) textMessage;
         }
-        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.image){
+        if (wantedMsgType == WeixinMsgTypeEnum.image){
             ImageSendMessage imageSendMessage = new ImageSendMessage();
-//            imageSendMessage.setImage(new ImageVo("0zeU3wDu7MM9tIVGCpEc79EU0KCC1dxo3PiIUuA7jWzM0Kh"));
             imageSendMessage.setCreateTime(System.currentTimeMillis()/1000);
             imageSendMessage.setFromUserName(msg.getToUserName());
             imageSendMessage.setToUserName(msg.getFromUserName());
             imageSendMessage.setMsgType(WeixinMsgTypeEnum.image.name());
             return (T) imageSendMessage;
+        }
+        if (wantedMsgType == WeixinMsgTypeEnum.news){
+            ArticlesMessage articlesMessage = new ArticlesMessage();
+            int count = 2;
+            articlesMessage.setArticleCount(count);
+            List<ArticlesVo> items = new ArrayList<>();
+            for (int i = 0; i < count; i++){
+                ArticlesVo articlesVo = new ArticlesVo();
+                articlesVo.setDescription("测试图文消息的描述");
+                articlesVo.setPicUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550928737410&di=9c7d684d449822005926611f7c621cd8&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170706%2Fea7ebed93beb4d61b410023462d7630f.jpg");
+                articlesVo.setTitle("测试图文消息的标题阿玛尼少放");
+                articlesVo.setUrl("http://www.baidu.com");
+                items.add(articlesVo);
+            }
+            articlesMessage.setArticles(items);
+            articlesMessage.setCreateTime(System.currentTimeMillis()/1000);
+            articlesMessage.setFromUserName(msg.getToUserName());
+            articlesMessage.setToUserName(msg.getFromUserName());
+            articlesMessage.setMsgType(WeixinMsgTypeEnum.news.name());
+            return (T) articlesMessage;
+
         }
 
         return null;

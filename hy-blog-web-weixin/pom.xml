@@ -11,7 +11,7 @@
     <groupId>com.yfancy</groupId>
     <artifactId>hy-blog-web-weixin</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>hy-blog-web-weixin</name>
     <description>Demo project for Spring Boot</description>
 
@@ -122,7 +122,8 @@
                 <includes>
                     <include>application.yml</include>
                     <include>application-${package.environment}.yml</include>
-                    <include>**/*.xml</include>
+                    <include>**/logback-${package.environment}.xml</include>
+                    <!--<include>**/*.xml</include>-->
                     <include>**/*.properties</include>
                 </includes>
             </resource>

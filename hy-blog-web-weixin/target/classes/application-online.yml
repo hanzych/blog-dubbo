@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  context-path: /web-weixin
+
+logging:
+  config: classpath:config/logback-online.xml
