@@ -8,7 +8,7 @@
     <!--引入默认的一些设置-->
     <!--<include resource="org/springframework/boot/logging/logback/defaults.xml"/>-->
     <!--web信息-->
-    <logger name="org.springframework.web" level="debug"/>
+    <logger name="org.springframework.web" level="info"/>
 
     <!--写入日志到控制台的appender,用默认的,但是要去掉charset,否则windows下tomcat下乱码-->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
@@ -106,8 +106,9 @@
         <!--<appender-ref ref="FILE"/>-->
     <!--</appender>-->
 
-    <logger name="org.springframework" level="debug"></logger>
-    <logger name="org.mybatis.spring" level="debug"></logger>
+    <logger name="org.springframework" level="info"></logger>
+    <logger name="org.mybatis.spring" level="info"></logger>
+    <logger name="org" level="info"></logger>
 
     <root level="info" >
         <!--<appender-ref ref="asyncFileAppender" />-->

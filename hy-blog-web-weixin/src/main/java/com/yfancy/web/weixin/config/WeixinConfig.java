@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Data
 @Configuration  //证明这是一个配置类
-@PropertySource(value = {"classpath:weixin_config.properties"}, ignoreResourceNotFound = true)//可以放多个,{}里面用,分开
+@PropertySource(value = {"classpath:weixin_config.properties"},encoding = "UTF-8", ignoreResourceNotFound = true)//可以放多个,{}里面用,分开
 public class WeixinConfig {
 
     @Value("${token}")
@@ -37,5 +37,17 @@ public class WeixinConfig {
 
     @Value("${media_upload_url}")
     private String media_upload_url;
+
+    @Value("${init_text_resp_param}")
+    private String init_text_resp_param;
+
+     @Value("${subsriber_resp}")
+    private String subsriber_resp;
+
+     @Value("${unsubsriber_resp}")
+    private String unsubsriber_resp;
+
+     @Value("${send_template_url}")
+    private String send_template_url;
 
 }

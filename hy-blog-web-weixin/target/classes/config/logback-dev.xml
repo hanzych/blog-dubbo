@@ -106,8 +106,9 @@
         <!--<appender-ref ref="FILE"/>-->
     <!--</appender>-->
 
-    <logger name="org.springframework" level="debug"></logger>
-    <logger name="org.mybatis.spring" level="debug"></logger>
+    <logger name="org.springframework" level="info"></logger>
+    <logger name="org.mybatis.spring" level="info"></logger>
+    <logger name="org" level="info"></logger>
 
     <root level="info" >
         <!--<appender-ref ref="asyncFileAppender" />-->

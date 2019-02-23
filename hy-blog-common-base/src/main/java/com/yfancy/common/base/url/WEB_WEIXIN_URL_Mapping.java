@@ -27,4 +27,9 @@ public class WEB_WEIXIN_URL_Mapping {
      *  上传媒体信息到微信服务器
      */
     public final static  String weixin_media_upload = "/weixinMediaUpload";
+
+    /**
+     *  发送模版信息到用户
+     */
+    public final static  String weixin_send_templete = "/weixinSendTemplete";
 }

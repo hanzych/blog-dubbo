@@ -1,5 +1,12 @@
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/BaseMessage.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/helper/WeixinHelper.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/ServletInitializer.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/config/DataInitConfig.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxMediaController.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/controller/WxAccessController.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/menu/SubButtonVo.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/config/WeixinConfig.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/message/TextMessage.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/init/WeixinInit.java
+/Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/web/weixin/vo/menu/MenuButtonVo.java
 /Users/suxiaohan/DEV/GIT/blog-dubbo/hy-blog-web-weixin/src/main/java/com/yfancy/WeixinApplication.java

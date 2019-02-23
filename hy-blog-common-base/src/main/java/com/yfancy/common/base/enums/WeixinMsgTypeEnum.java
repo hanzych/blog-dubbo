@@ -8,6 +8,7 @@ public enum WeixinMsgTypeEnum {
     video("视频消息"),
     music("音乐消息"),
     news("图文消息"),
+    event("事件消息"),
 
     ;
 

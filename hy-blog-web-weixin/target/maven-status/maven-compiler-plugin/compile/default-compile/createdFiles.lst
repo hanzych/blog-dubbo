@@ -1,5 +1,13 @@
-com/yfancy/web/weixin/helper/WeixinHelper.class
+com/yfancy/web/weixin/vo/menu/MenuButtonVo.class
+com/yfancy/web/weixin/config/DataInitConfig.class
+com/yfancy/web/weixin/vo/message/TextMessage.class
 com/yfancy/WeixinApplication.class
+com/yfancy/web/weixin/vo/menu/SubButtonVo.class
+com/yfancy/web/weixin/helper/WeixinHelper$1.class
+com/yfancy/web/weixin/init/WeixinInit.class
+com/yfancy/web/weixin/vo/message/BaseMessage.class
+com/yfancy/web/weixin/helper/WeixinHelper.class
+com/yfancy/web/weixin/controller/WxMediaController.class
 com/yfancy/web/weixin/config/WeixinConfig.class
 com/yfancy/ServletInitializer.class
 com/yfancy/web/weixin/controller/WxAccessController.class

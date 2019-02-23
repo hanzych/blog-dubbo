@@ -2,14 +2,12 @@ package com.yfancy.web.weixin.controller;
 
 
 import com.yfancy.common.base.Result;
-import com.yfancy.common.base.enums.WeixinMsgTypeEnum;
 import com.yfancy.common.base.url.WEB_WEIXIN_URL_Mapping;
 import com.yfancy.common.base.util.CommonUtil;
 import com.yfancy.common.base.util.SerializeXmlUtil;
 import com.yfancy.web.weixin.config.WeixinConfig;
 import com.yfancy.web.weixin.helper.WeixinHelper;
 import com.yfancy.web.weixin.vo.message.BaseMessage;
-import com.yfancy.web.weixin.vo.message.TextMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -104,13 +102,13 @@ public class WxAccessController {
     public String weixinMessage(HttpServletRequest request){
         String xml = CommonUtil.getRequestContent(request);
         log.info("[WxAccessController][weixinMessage],处理消息，message = {}", xml);
-        BaseMessage userMsg = SerializeXmlUtil.xmlToBean(xml, TextMessage.class);
-        BaseMessage baseMessage = weixinHelper.replyMsgToUser(userMsg);
-
-
+        String msgType = weixinHelper.getMsgTypeFromWixinReq(xml);
+        BaseMessage baseMessage = weixinHelper.replyAllTypeMsg(msgType,xml);
+        if (baseMessage == null){
+            return "";
+        }
         String beanToXml = SerializeXmlUtil.beanToXml(baseMessage);
-        log.info(beanToXml);
-
+        log.info("[WxAccessController][weixinMessage],处理消息，完成");
         return beanToXml;
     }
 

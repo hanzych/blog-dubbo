@@ -7,20 +7,24 @@ import com.yfancy.common.base.Result;
 import com.yfancy.common.base.enums.SystemCodeMsgEnum;
 import com.yfancy.common.base.enums.WeixinButtonTypeEnum;
 import com.yfancy.common.base.enums.WeixinMsgTypeEnum;
+import com.yfancy.common.base.init.Weixin_Init_Param;
 import com.yfancy.common.base.util.HttpClientUtil;
+import com.yfancy.common.base.util.SerializeXmlUtil;
 import com.yfancy.web.weixin.config.WeixinConfig;
 import com.yfancy.web.weixin.vo.menu.MenuButtonVo;
 import com.yfancy.web.weixin.vo.menu.SubButtonVo;
 import com.yfancy.web.weixin.vo.message.BaseMessage;
+import com.yfancy.web.weixin.vo.message.EventMessage;
+import com.yfancy.web.weixin.vo.message.image.ImageReceiveMessage;
+import com.yfancy.web.weixin.vo.message.image.ImageSendMessage;
 import com.yfancy.web.weixin.vo.message.TextMessage;
+import com.yfancy.web.weixin.vo.message.image.ImageVo;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -208,18 +212,21 @@ public class WeixinHelper {
 
     /**
      * 根据用户的消息类型，返回相应的消息给用户
-     * @param msg
+     * @param msgType 消息类型
+     * @param xml 微信服务器传来到消息报文
      * @return
      */
-    public BaseMessage replyMsgToUser(BaseMessage msg) {
+    public BaseMessage replyAllTypeMsg(String msgType, String xml) {
         BaseMessage result = null;
-        WeixinMsgTypeEnum weixinMsgTypeEnum = returnMsgType(msg.getMsgType());
+        WeixinMsgTypeEnum weixinMsgTypeEnum = returnMsgType(msgType);
         switch (weixinMsgTypeEnum){
             case  text :
-                result = dealTextMsg(msg);
+                TextMessage textMsg = SerializeXmlUtil.xmlToBean(xml, TextMessage.class);
+                result = dealTextMsg(textMsg);
                 break;
             case  image :
-//                dealTextMsg();
+                ImageReceiveMessage imageReceiveMessage = SerializeXmlUtil.xmlToBean(xml, ImageReceiveMessage.class);
+                result = dealImageMsg(imageReceiveMessage);
                 break;
             case  music :
 //                dealTextMsg();
@@ -230,6 +237,10 @@ public class WeixinHelper {
             case  video :
 //                dealTextMsg();
                 break;
+            case  event :
+                EventMessage eventMsg = SerializeXmlUtil.xmlToBean(xml, EventMessage.class);
+                result = dealEventMsg(eventMsg);
+                break;
         }
 
 
@@ -238,18 +249,179 @@ public class WeixinHelper {
 
     }
 
+
+    /**
+     * 处理事件消息到具体到业务
+     * @param imageReceiveMessage
+     * @return
+     */
+    private BaseMessage dealImageMsg(ImageReceiveMessage imageReceiveMessage) {
+        ImageSendMessage imageSendMessage = createMsgByType(imageReceiveMessage);
+        imageSendMessage.setImage(new ImageVo("lQ88oxpGbrcRV3dN2n6_vDMFZHvugobfhAWldH5T0YeLZq6uNxOeR1NuvsFH-de4"));
+        return imageSendMessage;
+    }
+
+    /**
+     * 处理事件消息到具体到业务
+     * @param eventMsg
+     * @return
+     */
+    private BaseMessage dealEventMsg(EventMessage eventMsg) {
+        String event = eventMsg.getEvent();
+        if ("unsubscribe".equals(event)){
+            log.info("[WeixinHelper][dealEventMsg],用户取消关注类订阅号...");
+            //用户订阅之后，给他发送一个消息
+            String content = weixinConfig.getUnsubsriber_resp();
+            TextMessage textMessage = createMsgByType(eventMsg);
+            textMessage.setContent(content);
+            return textMessage;
+        }
+        if ("subscribe".equals(event)){
+            log.info("[WeixinHelper][dealEventMsg],用户关注类订阅号...");
+            //用户订阅之后，给他发送一个消息
+            String content = weixinConfig.getSubsriber_resp();
+            TextMessage textMessage = createMsgByType(eventMsg);
+            textMessage.setContent(content);
+            return textMessage;
+        }
+        if ("TEMPLATESENDJOBFINISH".equals(event)){
+            String status = eventMsg.getStatus();
+            if ("success".equals(status)){
+                log.info("[WeixinHelper][dealEventMsg],用户已成功接受模版消息推送...");
+            }
+        }
+        return null;
+    }
+
     /**
      * 处理文本消息
      * @return
      */
     private TextMessage dealTextMsg(BaseMessage msg) {
-        TextMessage textMessage = new TextMessage();
-        textMessage.setContent("傻啊你");
-        textMessage.setCreateTime(System.currentTimeMillis()/1000);
-        textMessage.setFromUserName(msg.getToUserName());
-        textMessage.setToUserName(msg.getFromUserName());
-        textMessage.setMsgType(WeixinMsgTypeEnum.text.name());
-
+        int size = Weixin_Init_Param.textRespParamMsg.size();
+        Random random = new Random();
+        int randomNum = random.nextInt(size - 1);
+        String content = Weixin_Init_Param.textRespParamMsg.get(randomNum);
+        TextMessage textMessage = createMsgByType(msg);
+        textMessage.setContent(content);
         return textMessage;
+    }
+
+
+    /**
+     * 按照不同到类型创建对应到消息类
+     * @param msg 为了知道发给谁
+     * @return
+     */
+    private <T> T createMsgByType(BaseMessage msg){
+        WeixinMsgTypeEnum weixinMsgTypeEnum = returnMsgType(msg.getMsgType());
+        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.text){
+            TextMessage textMessage = new TextMessage();
+            textMessage.setContent("");
+            textMessage.setCreateTime(System.currentTimeMillis()/1000);
+            textMessage.setFromUserName(msg.getToUserName());
+            textMessage.setToUserName(msg.getFromUserName());
+            textMessage.setMsgType(WeixinMsgTypeEnum.text.name());
+            return (T) textMessage;
+        }
+        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.event){
+            TextMessage textMessage = new TextMessage();
+            textMessage.setContent("");
+            textMessage.setCreateTime(System.currentTimeMillis()/1000);
+            textMessage.setFromUserName(msg.getToUserName());
+            textMessage.setToUserName(msg.getFromUserName());
+            textMessage.setMsgType(WeixinMsgTypeEnum.text.name());
+            return (T) textMessage;
+        }
+        if (weixinMsgTypeEnum == WeixinMsgTypeEnum.image){
+            ImageSendMessage imageSendMessage = new ImageSendMessage();
+//            imageSendMessage.setImage(new ImageVo("0zeU3wDu7MM9tIVGCpEc79EU0KCC1dxo3PiIUuA7jWzM0Kh"));
+            imageSendMessage.setCreateTime(System.currentTimeMillis()/1000);
+            imageSendMessage.setFromUserName(msg.getToUserName());
+            imageSendMessage.setToUserName(msg.getFromUserName());
+            imageSendMessage.setMsgType(WeixinMsgTypeEnum.image.name());
+            return (T) imageSendMessage;
+        }
+
+        return null;
+    }
+
+    /**
+     * 从微信发来的报文中获取msgtype
+     * @param xml
+     * @return
+     */
+    public String getMsgTypeFromWixinReq(String xml) {
+        if (xml.indexOf("MsgType") != -1){
+            int start = xml.indexOf("<MsgType>");
+            int end = xml.indexOf("</MsgType>");
+            String msgType = xml.substring(start + 18, end - 3);
+            return msgType;
+        }
+        return null;
+    }
+
+    /**
+     * 创建微信模版发送信息
+     * @param userId 微信id
+     * @param templeteType 模版类型
+     * @return
+     */
+    public String createWeixinTempleteMsg(String userId, int templeteType) {
+        String templeteid = Weixin_Init_Param.templeteMap.get(templeteType);
+        Map<String,Object> templeteMap = new LinkedHashMap<>();
+        templeteMap.put("touser",userId);
+        templeteMap.put("template_id",templeteid);
+        templeteMap.put("url","http://www.baidu.com");
+//        Map<String,Object> miniprogram = new HashMap<>();
+//        miniprogram.put("appid","xiaochengxuappid12345");
+//        miniprogram.put("pagepath","index?foo=bar");
+//        templeteMap.put("miniprogram",miniprogram);
+        Map<String,Object> dataMap = new LinkedHashMap<>();
+        Map<String,Object> firstMap = new LinkedHashMap<>();
+        firstMap.put("value","恭喜你购买成功！");
+        firstMap.put("color","#173177");
+        dataMap.put("first",firstMap);
+        Map<String,Object> keyword1Map = new LinkedHashMap<>();
+        keyword1Map.put("value","巧克力");
+        keyword1Map.put("color","#173177");
+        dataMap.put("card",keyword1Map);
+        Map<String,Object> keyword2Map = new LinkedHashMap<>();
+        keyword2Map.put("value","39.8元");
+        keyword2Map.put("color","#173177");
+        dataMap.put("name",keyword2Map);
+        Map<String,Object> keyword3Map = new LinkedHashMap<>();
+        keyword3Map.put("value",new Date());
+        keyword3Map.put("color","#173177");
+        dataMap.put("time",keyword3Map);
+        Map<String,Object> remarkMap = new LinkedHashMap<>();
+        remarkMap.put("value","欢迎再次购买！");
+        remarkMap.put("color","#173177");
+        dataMap.put("remark",remarkMap);
+
+        templeteMap.put("data",dataMap);
+        String content = JSON.toJSONString(templeteMap);
+        log.info("模版消息={}",content);
+        return content;
+
+    }
+
+    /**
+     * 发送模版消息到微信
+     */
+    public Result sendWeixinTempleteMsg(String templeteMsg) {
+        String accessToken = getWeixinAccessToken();
+        String send_template_url = weixinConfig.getSend_template_url();
+        String url = String.format(send_template_url, accessToken);
+        try {
+            String result = HttpClientUtil.sendPost(url, templeteMsg);
+            Long errcode = JSONObject.parseObject(result).getLong("errcode");
+            if (errcode == SystemCodeMsgEnum.weixin_success.getCode()){
+                return Result.SUCCESS();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return Result.ERROR();
     }
 }

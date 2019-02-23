@@ -18,7 +18,4 @@ public abstract class BaseMessage {
 
     @XStreamAlias("MsgType")
     private String msgType;
-
-    @XStreamAlias("MsgId")
-    private Long msgId = null;
 }
