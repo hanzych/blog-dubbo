@@ -37,7 +37,7 @@
 
     <!-- 业务日志：写入kafka -->
     <!--此配置作为示例配置，请勿deploy-->
-    <!--<appender name="KAFKA" class="com.yfancy.common.log.kafka.KafkaAppender">-->
+    <!--<appender name="KAFKA" class="com.yfancy.common.base.KafkaAppender">-->
         <!--<topic>web_timer_topic</topic>-->
         <!--<bootstrapServers>47.111.22.77:9092</bootstrapServers>-->
         <!--<valueSerializer>org.apache.kafka.common.serialization.StringSerializer</valueSerializer>-->

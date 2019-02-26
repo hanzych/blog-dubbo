@@ -16,7 +16,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hy-blog-common-config" />
-    <orderEntry type="module" module-name="hy-blog-common-log" />
+    <orderEntry type="library" name="Maven: com.yfancy:hy-blog-common-log:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />

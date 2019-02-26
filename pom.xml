@@ -12,7 +12,6 @@
         <module>hy-blog-common-biz</module>
         <!--<module>hy-blog-common-core</module>-->
         <module>hy-blog-common-config</module>
-        <module>hy-blog-common-log</module>
         <module>hy-blog-service-user</module>
         <module>hy-blog-service-user-api</module>
         <module>hy-blog-service-vip</module>

@@ -2,11 +2,13 @@ com/yfancy/common/base/util/SerializeXmlUtil$1.class
 com/yfancy/common/base/enums/WeixinMsgTypeEnum.class
 com/yfancy/common/base/Result.class
 com/yfancy/common/base/enums/KafkaRoleEnum.class
+com/yfancy/common/base/KafkaAppender.class
 com/yfancy/common/base/dao/BaseDaoImpl.class
 com/yfancy/common/base/page/PageParam.class
 com/yfancy/common/base/util/HttpClientUtil.class
 com/yfancy/common/base/entity/Vip.class
 com/yfancy/common/base/enums/NotifyDestinatonEnum.class
+com/yfancy/common/base/enums/KafkaLogNameEnum.class
 com/yfancy/common/base/enums/SystemCodeMsgEnum.class
 com/yfancy/common/base/url/WEB_BOSS_URL_Mapping.class
 com/yfancy/common/base/util/CommonUtil.class

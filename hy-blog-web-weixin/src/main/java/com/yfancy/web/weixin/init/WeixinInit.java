@@ -44,5 +44,21 @@ public class WeixinInit {
         log.info("[WeixinInit][initWeixinTempleteIdWithType]初始化微信模版templateID，结束");
     }
 
+    /**
+     * 初始化微信media
+     */
+    public void initWeixinMediaMap(){
+        log.info("[WeixinInit][initWeixinMediaMap]初始化微信media，开始");
+        List<String> media_image_list = new ArrayList<>();
+        media_image_list.add("XQozvnyVD2TZL37wDyfCoxb2POYt7NFxfWRhS0KU7M8");
+        media_image_list.add("XQozvnyVD2TZL37wDyfCo1zN9jrA152fZrc0lCk4IsE");
+        media_image_list.add("XQozvnyVD2TZL37wDyfCo3IxRRZ2fSN1g7ipp3Dx258");
+        List<String> media_thumb_list = new ArrayList<>();
+        media_thumb_list.add("QozvnyVD2TZL37wDyfCo3u-GOmL7GrGurOj0aRjTU8");
+        media_thumb_list.add("XQozvnyVD2TZL37wDyfCowmnlf4-LjWXq41CR1pyu0o");
+        Weixin_Init_Param.mediaMap.put("image",media_image_list);
+        Weixin_Init_Param.mediaMap.put("thumb",media_thumb_list);
+        log.info("[WeixinInit][initWeixinTempleteIdWithType]初始化微信media，结束");
+    }
 
 }

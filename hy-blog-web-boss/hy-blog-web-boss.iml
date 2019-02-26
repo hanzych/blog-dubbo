@@ -123,7 +123,7 @@
     <orderEntry type="module" module-name="hy-blog-service-user-api" />
     <orderEntry type="module" module-name="hy-blog-service-vip-api" />
     <orderEntry type="module" module-name="hy-blog-service-notify-api" />
-    <orderEntry type="module" module-name="hy-blog-common-log" />
+    <orderEntry type="library" name="Maven: com.yfancy:hy-blog-common-log:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />

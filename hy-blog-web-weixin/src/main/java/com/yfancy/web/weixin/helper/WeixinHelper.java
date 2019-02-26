@@ -178,13 +178,19 @@ public class WeixinHelper {
      * 网络图片上传到微信服务器
      *
      * @param urlPath 图片路径
-     * @return media_id
+     * @return mediaType  需要上传的媒体文件类型
+     * @return uploadType  需要上传的种类，是临时媒体还是永久 1-临时  2-永久
      * @throws Exception
      */
-    public String uploadMediaToWeixin(String urlPath, String fileType) throws Exception {
+    public String uploadMediaToWeixin(String urlPath, String mediaType, int uploadType) throws Exception {
         String accessToken = getWeixinAccessToken();
-        String media_upload_url = weixinConfig.getMedia_upload_url();
-        String url = String.format(media_upload_url, accessToken, fileType);
+        String media_upload_url = "";
+        if (uploadType == 1){
+            media_upload_url = weixinConfig.getMedia_upload_url();
+        }else {
+            media_upload_url = weixinConfig.getAdd_material_url();
+        }
+        String url = String.format(media_upload_url, accessToken, mediaType);
         String result = HttpClientUtil.upload(url, urlPath);
         log.info("[WeixinHelper][uploadMediaToWeixin],result = {}", result);
 //        JSONObject jsonObj = JSON.parseObject(result);
@@ -268,11 +274,10 @@ public class WeixinHelper {
         String event = eventMsg.getEvent();
         if ("subscribe".equals(event)){
             log.info("[WeixinHelper][dealEventMsg],用户关注类订阅号...");
-            //用户订阅之后，给他发送一个消息
-            String content = weixinConfig.getSubsriber_resp();
-            TextMessage textMessage = createMsgByType(eventMsg, WeixinMsgTypeEnum.text);
-            textMessage.setContent(content);
-            return textMessage;
+            //用户订阅之后，给他发送一个图文消息，说明次公众号的用途
+            ArticlesMessage articlesMessage = createMsgByType(eventMsg, WeixinMsgTypeEnum.news);
+            return articlesMessage;
+
         }
         if ("TEMPLATESENDJOBFINISH".equals(event)){
             String status = eventMsg.getStatus();
@@ -299,14 +304,30 @@ public class WeixinHelper {
      * 处理文本消息
      * @return
      */
-    private TextMessage dealTextMsg(BaseMessage msg) {
-        int size = Weixin_Init_Param.textRespParamMsg.size();
-        Random random = new Random();
-        int randomNum = random.nextInt(size - 1);
-        String content = Weixin_Init_Param.textRespParamMsg.get(randomNum);
-        TextMessage textMessage = createMsgByType(msg, WeixinMsgTypeEnum.text);
-        textMessage.setContent(content);
-        return textMessage;
+    private BaseMessage dealTextMsg(TextMessage msg) {
+        String userSay = msg.getContent();//用户发来的信息
+        if ("帮助,help".contains(userSay)){
+            //给用户推送一些快捷使用关键词
+            String content = " 1: 查看最近一次推送 \n 2: 查看推荐音乐 \n 3: 查看mac软件推荐 \n 4: 查看我能干啥 \n 5: 赞助一瓶汽水🥤";
+            TextMessage textMessage = createMsgByType(msg, WeixinMsgTypeEnum.text);
+            textMessage.setContent(content);
+            return textMessage;
+
+        }else if ("听歌,歌曲".contains(userSay)){
+            MusicMessage musicMessage = createMsgByType(msg,WeixinMsgTypeEnum.music);
+            return musicMessage;
+        }
+        else {
+            //随机发送一个消息
+
+            int size = Weixin_Init_Param.textRespParamMsg.size();
+            Random random = new Random();
+            int randomNum = random.nextInt(size - 1);
+            String content = Weixin_Init_Param.textRespParamMsg.get(randomNum);
+            TextMessage textMessage = createMsgByType(msg, WeixinMsgTypeEnum.text);
+            textMessage.setContent(content);
+            return textMessage;
+        }
     }
 
 
@@ -348,14 +369,19 @@ public class WeixinHelper {
             int count = 2;
             articlesMessage.setArticleCount(count);
             List<ArticlesVo> items = new ArrayList<>();
-            for (int i = 0; i < count; i++){
-                ArticlesVo articlesVo = new ArticlesVo();
-                articlesVo.setDescription("测试图文消息的描述");
-                articlesVo.setPicUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550928737410&di=9c7d684d449822005926611f7c621cd8&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fimages%2F20170706%2Fea7ebed93beb4d61b410023462d7630f.jpg");
-                articlesVo.setTitle("测试图文消息的标题阿玛尼少放");
-                articlesVo.setUrl("http://www.baidu.com");
-                items.add(articlesVo);
-            }
+            ArticlesVo articlesVo = new ArticlesVo();
+            articlesVo.setDescription("此公众号主要是分享一些好玩的东西，类型不限，听歌，学习，编程都会有。主要是记录自己学习中好玩的东西，分享出来。");
+            articlesVo.setPicUrl("http://pic31.photophoto.cn/20140403/0017029551537896_b.jpg");
+            articlesVo.setTitle("欢迎您订阅此公众号");
+            articlesVo.setUrl("http://www.baidu.com");
+            ArticlesVo articlesItem = new ArticlesVo();
+            articlesItem.setDescription("mac入门软件推荐（一）");
+            articlesItem.setPicUrl("http://imgsrc.baidu.com/imgad/pic/item/7e3e6709c93d70cfa2a88431f3dcd100baa12bbf.jpg");
+            articlesItem.setTitle("第一篇：mac软件分享");
+            articlesItem.setUrl("http://www.github.com");
+            items.add(articlesVo);
+            items.add(articlesItem);
+
             articlesMessage.setArticles(items);
             articlesMessage.setCreateTime(System.currentTimeMillis()/1000);
             articlesMessage.setFromUserName(msg.getToUserName());
@@ -363,6 +389,20 @@ public class WeixinHelper {
             articlesMessage.setMsgType(WeixinMsgTypeEnum.news.name());
             return (T) articlesMessage;
 
+        }
+        if (wantedMsgType == WeixinMsgTypeEnum.music){
+            MusicMessage musicMessage = new MusicMessage();
+            musicMessage.setCreateTime(System.currentTimeMillis()/1000);
+            musicMessage.setFromUserName(msg.getToUserName());
+            musicMessage.setToUserName(msg.getFromUserName());
+            musicMessage.setMsgType(WeixinMsgTypeEnum.music.name());
+            MusicVo musicVo = new MusicVo();
+            musicVo.setDesc("无敌是多么的寂寞");
+            musicVo.setTitle("无敌");
+            musicVo.setThumbMediaId(Weixin_Init_Param.mediaMap.get("thumb").get(1));
+            musicVo.setMusicUrl("http://ra01.sycdn.kuwo.cn/resource/n3/32/56/3260586875.mp3");
+            musicMessage.setMusicVo(musicVo);
+            return (T) musicMessage;
         }
 
         return null;

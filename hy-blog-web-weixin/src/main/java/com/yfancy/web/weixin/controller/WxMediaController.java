@@ -9,6 +9,7 @@ import com.yfancy.web.weixin.helper.WeixinHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,17 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class WxMediaController {
 
     @Autowired
-    private WeixinConfig weixinConfig;
-
-    @Autowired
     private WeixinHelper weixinHelper;
 
-
     @RequestMapping(value = WEB_WEIXIN_URL_Mapping.weixin_media_upload, method = RequestMethod.POST)
-    public Result weixinUploadMedia(){
-        String imageUrl = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550839812529&di=6d097782146c238b62ed4daec632b2c5&imgtype=0&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F8d5494eef01f3a2963a5db079425bc315d607c8d.jpg";
+    public Result weixinUploadMedia(@RequestParam("imageUrl") String imageUrl,
+                                    @RequestParam("mediaType") String mediaType,
+                                    @RequestParam("loadType") int loadType){
         try {
-            String result = weixinHelper.uploadMediaToWeixin(imageUrl, WeixinMsgTypeEnum.image.name());
+            String result = weixinHelper.uploadMediaToWeixin(imageUrl, mediaType,loadType);
             JSONObject jsonObject = JSONObject.parseObject(result);
             if (jsonObject.containsKey("media_id")){
                 return Result.SUCCESS(jsonObject.getString("media_id"));
@@ -38,6 +36,7 @@ public class WxMediaController {
         }
         return Result.ERROR();
     }
+
 
 
 }

@@ -18,4 +18,10 @@ public class Weixin_Init_Param {
      * 微信模版id和对应的类型的初始化map
      */
     public static HashMap<Integer, String> templeteMap = new HashMap<>();
+
+
+    /**
+     * 微信媒体map
+     */
+    public static HashMap<String, List<String>> mediaMap = new HashMap<>();
 }

@@ -24,9 +24,14 @@ public class WEB_WEIXIN_URL_Mapping {
     public final static  String weixin_del_menu = "/weixinDelMenu";
 
     /**
-     *  上传媒体信息到微信服务器
+     *  上传临时媒体信息到微信服务器
      */
     public final static  String weixin_media_upload = "/weixinMediaUpload";
+
+    /**
+     *  上传永久媒体信息到微信服务器
+     */
+    public final static  String weixin_add_material = "/weixinAddMaterial";
 
     /**
      *  发送模版信息到用户

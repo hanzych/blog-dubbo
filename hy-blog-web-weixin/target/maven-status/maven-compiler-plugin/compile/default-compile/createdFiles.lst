@@ -1,3 +1,4 @@
+com/yfancy/web/weixin/vo/message/MusicVo.class
 com/yfancy/web/weixin/vo/menu/MenuButtonVo.class
 com/yfancy/web/weixin/vo/message/image/ImageVo.class
 com/yfancy/web/weixin/config/DataInitConfig.class
@@ -9,6 +10,7 @@ com/yfancy/web/weixin/helper/WeixinHelper$1.class
 com/yfancy/web/weixin/init/WeixinInit.class
 com/yfancy/web/weixin/vo/message/image/ImageReceiveMessage.class
 com/yfancy/web/weixin/vo/message/BaseMessage.class
+com/yfancy/web/weixin/vo/message/MusicMessage.class
 com/yfancy/web/weixin/controller/WxTempleteController.class
 com/yfancy/web/weixin/vo/message/image/ImageSendMessage.class
 com/yfancy/web/weixin/helper/WeixinHelper.class

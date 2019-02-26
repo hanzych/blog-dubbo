@@ -85,9 +85,7 @@
           <element id="archive" name="hy-blog-service-notify-api-1.0.0.jar">
             <element id="module-output" name="hy-blog-service-notify-api" />
           </element>
-          <element id="archive" name="hy-blog-common-log-1.0.0.jar">
-            <element id="module-output" name="hy-blog-common-log" />
-          </element>
+          <element id="library" level="project" name="Maven: com.yfancy:hy-blog-common-log:1.0.0" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.11" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.11" />

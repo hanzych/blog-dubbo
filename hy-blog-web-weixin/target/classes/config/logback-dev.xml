@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+    <property name="LOG_PATH" value="/Users/suxiaohan/Desktop/logs/web-weixin/web-weixin"/>
+    <property name="PROJECT_NAME" value="WEB_WEIXIN"/>
+
+    <!--引入默认的一些设置-->
+    <!--<include resource="org/springframework/boot/logging/logback/defaults.xml"/>-->
+    <!--web信息-->
+    <logger name="org.springframework.web" level="info"/>
+
+    <!--写入日志到控制台的appender,用默认的,但是要去掉charset,否则windows下tomcat下乱码-->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern> [${PROJECT_NAME}] || [%date] [%level] [%thread] [%logger{36}] [%file : %line] : %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
+    <!--&lt;!&ndash;写入日志到文件的appender&ndash;&gt;-->
+    <!--<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--&lt;!&ndash;日志文件输出的文件名,每天一个文件&ndash;&gt;-->
+            <!--<FileNamePattern>${LOG_PATH}.%d{yyyy-MM-dd}.log</FileNamePattern>-->
+            <!--&lt;!&ndash;日志文件保留天数&ndash;&gt;-->
+            <!--<maxHistory>30</maxHistory>-->
+        <!--</rollingPolicy>-->
+        <!--<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+            <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+        <!--</encoder>-->
+        <!--&lt;!&ndash;日志文件最大的大小&ndash;&gt;-->
+        <!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+            <!--<MaxFileSize>10MB</MaxFileSize>-->
+        <!--</triggeringPolicy>-->
+    <!--</appender>-->
+
+    <!-- 业务日志：写入kafka -->
+    <!--此配置作为示例配置，请勿deploy-->
+    <!--<appender name="KAFKA" class="com.yfancy.common.base.KafkaAppender">-->
+        <!--<topic>web_timer_topic</topic>-->
+        <!--<bootstrapServers>47.111.22.77:9092</bootstrapServers>-->
+        <!--<valueSerializer>org.apache.kafka.common.serialization.StringSerializer</valueSerializer>-->
+        <!--<failOnStartup>false</failOnStartup>-->
+        <!--&lt;!&ndash;设置600毫秒超时&ndash;&gt;-->
+        <!--<requestTimeoutMs>600</requestTimeoutMs>-->
+        <!--&lt;!&ndash;空闲时间，超过5秒没人用就关闭连接&ndash;&gt;-->
+        <!--<maxBlockTimeMs>5000</maxBlockTimeMs>-->
+
+        <!--&lt;!&ndash;<logToLocal>true</logToLocal>&ndash;&gt;-->
+        <!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+            <!--<pattern>[${PROJECT_NAME}] || [%date] [%level] [%thread] [%logger{36}] [%file : %line] : %msg%n</pattern>-->
+        <!--</layout>-->
+    <!--</appender>-->
+
+    <!--<appender name="ASYNC-KAFKA-EVENTS"-->
+              <!--class="ch.qos.logback.classic.AsyncAppender">-->
+        <!--<discardingThreshold>0</discardingThreshold>-->
+        <!--<queueSize>2048</queueSize>-->
+        <!--<appender-ref ref="KAFKA" />-->
+    <!--</appender>-->
+
+    <!--<logger name="kafka-event" additivity="false">-->
+        <!--<appender-ref ref="ASYNC-KAFKA-EVENTS" />-->
+    <!--</logger>-->
+
+    <!--&lt;!&ndash; 业务日志：异常 写入本地 &ndash;&gt;-->
+    <!--<appender name="LOCAL"-->
+              <!--class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<rollingPolicy-->
+                <!--class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">&lt;!&ndash; 基于时间的策略 &ndash;&gt;-->
+            <!--<fileNamePattern>${LOG_HOME}/${DATA_NAME}/${EVENT_LOGS_FILENAME}.%d{yyyy-MM-dd}.log-->
+            <!--</fileNamePattern>-->
+            <!--&lt;!&ndash; 日志文件保留天数 &ndash;&gt;-->
+            <!--<MaxHistory>10</MaxHistory>-->
+        <!--</rollingPolicy>-->
+        <!--<triggeringPolicy-->
+                <!--class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+            <!--&lt;!&ndash; 文件大小触发重写新文件 &ndash;&gt;-->
+            <!--<MaxFileSize>100MB</MaxFileSize>-->
+            <!--&lt;!&ndash; <totalSizeCap>10GB</totalSizeCap> &ndash;&gt;-->
+        <!--</triggeringPolicy>-->
+        <!--<encoder>-->
+            <!--<charset>UTF-8</charset>-->
+            <!--<pattern>[%d] [%-5level] [%thread] [%logger] - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+    <!--<appender name="ASYNC-LOCAL"-->
+              <!--class="ch.qos.logback.classic.AsyncAppender">-->
+        <!--<discardingThreshold>0</discardingThreshold>-->
+        <!--<queueSize>2048</queueSize>-->
+        <!--<appender-ref ref="LOCAL" />-->
+    <!--</appender>-->
+
+    <!--&lt;!&ndash;万一kafka队列不通,记录到本地 &ndash;&gt;-->
+    <!--<logger name="local" additivity="false">-->
+        <!--<appender-ref ref="ASYNC-LOCAL" />-->
+    <!--</logger>-->
+
+
+
+    <!--&lt;!&ndash;异步到文件&ndash;&gt;-->
+    <!--<appender name="asyncFileAppender" class="ch.qos.logback.classic.AsyncAppender">-->
+        <!--<discardingThreshold>0</discardingThreshold>-->
+        <!--<queueSize>500</queueSize>-->
+        <!--<appender-ref ref="FILE"/>-->
+    <!--</appender>-->
+
+    <logger name="org.springframework" level="info"></logger>
+    <logger name="org.mybatis.spring" level="info"></logger>
+    <logger name="org" level="info"></logger>
+
+    <root level="info" >
+        <!--<appender-ref ref="asyncFileAppender" />-->
+        <appender-ref ref="CONSOLE" />
+        <!--<appender-ref ref="KAFKA" />-->
+    </root>
+</configuration>

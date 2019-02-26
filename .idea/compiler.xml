@@ -11,7 +11,6 @@
         <module name="hy-blog-common-base" />
         <module name="hy-blog-common-biz" />
         <module name="hy-blog-common-config" />
-        <module name="hy-blog-common-log" />
         <module name="hy-blog-service-message" />
         <module name="hy-blog-service-message-api" />
         <module name="hy-blog-service-notify" />

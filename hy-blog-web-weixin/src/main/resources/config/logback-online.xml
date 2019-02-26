@@ -41,6 +41,7 @@
 
     <logger name="org.springframework" level="INFO"></logger>
     <logger name="org.mybatis.spring" level="INFO"></logger>
+    <logger name="org" level="INFO"></logger>
 
     <root level="info" >
         <appender-ref ref="asyncFileAppender" />

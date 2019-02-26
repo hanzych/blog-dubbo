@@ -1,6 +1,6 @@
 package com.yfancy.app.log.listener;
 
-import com.yfancy.common.log.kafka.KafkaLogNameEnum;
+import com.yfancy.common.base.enums.KafkaLogNameEnum;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

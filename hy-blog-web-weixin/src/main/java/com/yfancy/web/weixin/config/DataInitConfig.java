@@ -19,5 +19,6 @@ public class DataInitConfig implements CommandLineRunner {
     public void run(String... strings) throws Exception {
         weixinInit.initWeixinTextRespParam();
         weixinInit.initWeixinTempleteIdWithType();
+        weixinInit.initWeixinMediaMap();
     }
 }

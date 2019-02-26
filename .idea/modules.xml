@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" filepath="$PROJECT_DIR$/hy-blog-common-base/hy-blog-common-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" filepath="$PROJECT_DIR$/hy-blog-common-biz/hy-blog-common-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" filepath="$PROJECT_DIR$/hy-blog-common-config/hy-blog-common-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hy-blog-common-log/hy-blog-common-log.iml" filepath="$PROJECT_DIR$/hy-blog-common-log/hy-blog-common-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-dubbo.iml" filepath="$PROJECT_DIR$/hy-blog-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" filepath="$PROJECT_DIR$/hy-blog-service-message/hy-blog-service-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-blog-service-message-api/hy-blog-service-message-api.iml" filepath="$PROJECT_DIR$/hy-blog-service-message-api/hy-blog-service-message-api.iml" />
